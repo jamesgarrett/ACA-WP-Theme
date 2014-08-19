@@ -1,0 +1,15 @@
+<?php // /Applications/XAMPP/xamppfiles/htdocs/c+c/wp-content/themes/wp-starter-theme/archive-partners.php ?>
+<?php //   ?><?php //  Template Name: Partners Archive Page ?><?php // }} ?><?php \Laravel\Section::start('main'); ?>
+	<?
+	 // init multi-map data
+	$data = array(
+		  "title" => get_the_title()!='' ? get_the_title() : '',
+		"content" => get_field("page_copy")
+	);
+	?>
+	<?php echo view('partials.partners-list',$data)->with(get_defined_vars())->render(); ?>
+<?php \Laravel\Section::stop(); ?>
+<?php \Laravel\Section::start('breakout'); ?>
+	<?php echo view('partials.acf-map-multiple',array('posttype'=>'partners'))->with(get_defined_vars())->render(); ?>
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>

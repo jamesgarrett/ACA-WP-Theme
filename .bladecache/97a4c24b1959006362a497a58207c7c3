@@ -1,0 +1,15 @@
+<section class="grid ">
+	<div class="row big-box bdr-v txt-brand">More Flavors from Cup &amp; Compass</div>
+	<ul class="list-inline row auto ta-c align-center">
+	<?php $bladequery = new WP_Query(array('post_type' => 'flavors')); if ( $bladequery->have_posts() ) : while ( $bladequery->have_posts() ) : $bladequery->the_post(); ?> 
+		<li class="cell g-rmv-p">
+			<a title="<?php echo the_title(); ?>" href="<?php echo the_permalink(); ?>" class="rounded g-rmv-p"  data-swatch="<?php echo get_field('flavor_swatch');; ?>" style="color:<?php echo get_field('flavor_swatch');; ?>;">
+				<span class="square box" style="background-image:url(<?php echo get_field('flavor_illustration',$post->id)['url']; ?>);" title="<?php echo the_title(); ?>"></span>
+				<span class="box"><?php echo the_title(); ?></span>
+			</a>
+		</li>
+	<?php endwhile; ?><?php else: ?>
+		<li class="bgc-err"><?php echo  __('Error loading flavors!') ; ?></li>
+	<?php endif; wp_reset_postdata(); ?>
+	</ul>
+</section>

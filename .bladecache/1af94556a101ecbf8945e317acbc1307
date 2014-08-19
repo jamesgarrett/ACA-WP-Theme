@@ -1,0 +1,43 @@
+<?
+$supported = array(
+	"facebook"   => "http://facebook.com/",
+	"twitter"    => "http://twitter.com/",
+	"googleplus" => "http://plus.google.com/+",
+	"instagram"  => "http://instagram.com/",
+	"youtube"    => "http://youtube.com/user/",
+);
+?>
+
+<ul class="social-icons <?php echo isset($wrapClass)?$wrapClass:'ta-c list-inline bdr-t'; ?>">
+	<li class="item g-rmv-p-r">
+		<strong class="txt-brand">C&amp;C</strong> 
+		<?php echo get_field('social_status')?get_field('social_status'):get_field('social_status','options'); ?>
+	</li>
+	<?php foreach ($supported as $platform => $link): ?>
+		<?
+		$f = get_field('social_'.$platform,'options');
+		$c = get_field("social_color_$platform",'options');
+		$f = $f ? $link.$f : false;
+		?>
+		<?php if ($f): ?>
+			<a class="item <?php echo isset($itemClass)?$itemClass:'m-l'; ?>" href="<?php echo $f; ?>"><li>
+				<?php if ($c): ?>
+					<style>.social-icon.<?php echo $platform; ?> {
+						fill:<?php echo $c; ?>;
+						transition:all .2s ease-in-out;
+					}
+					.social-icons .item:hover .social-icon.<?php echo $platform; ?>,
+					.social-icon.<?php echo $platform; ?>:hover {
+						fill: #FFF;
+						transition:all .2s ease-in-out;
+					}
+					.social-icons .item,
+					.social-icons .item:hover {
+						transition:all .2s ease-in-out;
+					}</style>
+				<?php endif; ?>
+				<?php echo view ("partials.social-icons",array("platform"=>$platform))->with(get_defined_vars())->render(); ?>
+			</li></a>
+		<?php endif; ?>
+	<?php endforeach; ?>
+</ul>

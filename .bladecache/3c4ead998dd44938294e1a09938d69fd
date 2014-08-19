@@ -1,0 +1,4 @@
+<div id="scripts" class="vis-hidden">
+	<script src="<?php echo  get_stylesheet_directory_uri() ; ?>/app.min.js"></script>
+</div>
+<?php echo  wp_footer() ; ?>

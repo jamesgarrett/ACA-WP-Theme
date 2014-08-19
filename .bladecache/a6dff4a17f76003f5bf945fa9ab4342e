@@ -1,0 +1,18 @@
+<section>
+	<div class="grid"><div class="row auto">
+		<div id="partner-logo" class="cell span-1">
+			<img class="bdr-a circle" width="100%" height="auto" src="<?php echo get_field('logo',$post->id)['url']; ?>" alt="<?php echo the_title(); ?>">
+		</div>
+		<div class="cell flex span-7">
+			<div>
+				<header>
+					<h1 class="txt-display"><?php echo the_title(); ?></h1>
+					<small><?php echo get_field('location')['address']; ?></small>
+				</header>
+				<section>
+				<?php echo get_field('description'); ?>
+				</section>
+			</div>
+		</div>
+	</div>
+</section>

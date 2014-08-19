@@ -1,0 +1,5 @@
+<?php // /Applications/XAMPP/xamppfiles/htdocs/c+c/wp-content/themes/wp-starter-theme/front-page.php ?>
+<?php \Laravel\Section::start('main'); ?>
+	<h1>frontpage</h1>
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>

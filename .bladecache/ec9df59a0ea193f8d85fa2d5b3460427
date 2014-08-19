@@ -1,0 +1,11 @@
+<?php // /Applications/XAMPP/xamppfiles/htdocs/c+c/wp-content/themes/wp-starter-theme/single-partners.php ?>
+<?php \Laravel\Section::start('main'); ?>
+	<?php echo view('partials.partners-single')->with(get_defined_vars())->render(); ?>
+<?php \Laravel\Section::stop(); ?>
+<?php \Laravel\Section::start('breakout'); ?>
+	<? $map = array(
+		"field" => 'location'
+	); ?>
+	<?php echo view('partials.acf-map-single',$map)->with(get_defined_vars())->render(); ?>
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>

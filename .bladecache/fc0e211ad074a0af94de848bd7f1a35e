@@ -1,0 +1,15 @@
+
+<?php if (get_field('page_image')): ?>
+	<?
+	$bg = "background-image:url(".get_field('page_image')['url'].");";
+	$sz = "background-size:".implode(' ',explode('|',get_field('page_image_size'))).";";
+	$ps = "background-position:".implode(' ',get_field('page_image_pos')[0]).";";
+	?>
+	<div id="page-bg" style="<?php echo $bg; ?><?php echo $sz; ?><?php echo $ps; ?>"></div>
+<?php endif; ?>
+<footer id="bottom" class="row auto align-center ta-c">
+	<div class="cell span-3">&copy; <?php echo  date('M. Y') ; ?></div>
+	<div class="cell span-3 txt-brand">C&amp;C</div>
+</footer>
+<script src="<?php echo  get_stylesheet_directory_uri() ; ?>/app.min.js"></script>
+<?php echo  wp_footer() ; ?>

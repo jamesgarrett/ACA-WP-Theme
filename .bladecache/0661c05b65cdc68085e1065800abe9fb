@@ -1,0 +1,42 @@
+<section class="grid">
+	<div class="row huge-box title-item p-v">
+		<?php if (isset($title)): ?>
+			<h1 class="title-txt txt-brand"><?php echo $title; ?></h1>
+		<?php else: ?>
+			<h1 class="title-txt txt-brand">Partners</h1>
+		<?php endif; ?>
+		<?php if (isset($content)): ?>
+			<?php echo $content; ?>
+		<?php endif; ?>
+	</div>
+	<ul class="list-attachment row">
+		<? $i=0; ?>
+		<?php $bladequery = new WP_Query(array('post_type' => 'partners')); if ( $bladequery->have_posts() ) : while ( $bladequery->have_posts() ) : $bladequery->the_post(); ?> 
+			<? $i++; ?>
+			<?php if (!isset($current) || $current!==$post->ID): ?>
+				<a class="cell span-4" title="<?php echo the_title(); ?>" href="<?php echo the_permalink(); ?>">
+					<li onclick="void(0)" data-swatch="<?php echo get_field('swatch');; ?>">
+						<h1 class="oswald fw-b"><?php echo the_title(); ?></h1>
+					</li>
+					<? $r = (sqrt(rand(1,1.5))); $r = $i%3==0? -1*$r : abs($r); $r=$r.'deg'; ?>
+					<style>
+						[data-swatch="<?php echo get_field('swatch');; ?>"] * {
+							position: relative;
+							z-index: 1;
+						}
+						[data-swatch="<?php echo get_field('swatch');; ?>"]:hover:before {
+							-webkit-transform:rotate(<?php echo $r; ?>);
+							-ms-transform:rotate(<?php echo $r; ?>);
+							-o-transform:rotate(<?php echo $r; ?>);
+							transform: rotate(<?php echo $r; ?>);
+							opacity: 1;
+							background: <?php echo  get_field("swatch") ; ?>;
+						}
+					</style>
+				</a>
+			<?php endif; ?>
+		<?php endwhile; ?><?php else: ?>
+			<div class="bgc-err"><?php echo  __('This is a partnerless world!') ; ?></div>
+		<?php endif; wp_reset_postdata(); ?>
+	</ul>
+</section>

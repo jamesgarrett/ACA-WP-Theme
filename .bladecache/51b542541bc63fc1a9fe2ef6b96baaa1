@@ -1,0 +1,11 @@
+<?php // /Applications/XAMPP/xamppfiles/htdocs/c+c/wp-content/themes/wp-starter-theme/contact.php ?>
+<?php //  ?><?php //  Template Name: Contact ?><?php // }} ?>
+<?php \Laravel\Section::start('main'); ?>
+	<section class="grid">
+		<div class="row auto">
+			<h1 class="va-t txt-display cell offset-right-1">Get In Touch</h1>
+			<div class="va-t cell"><?php echo get_field('contact_form'); ?></div>
+		</div>
+	</section>
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>

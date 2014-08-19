@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><?php echo  bloginfo('name') ; ?></title>
+	<link rel="stylesheet" href="<?php echo  get_stylesheet_uri() ; ?>">
+	<?php echo  wp_head() ; ?>
+</head>
+<body>
+	<div id="app">
+		<?php echo view('partials.header')->with(get_defined_vars())->render(); ?>
+		<main class="row auto align-center">
+			<div class="cell span-12">
+				<article class="cell va-b span-6 offset-right-1">
+					<?php echo \Laravel\Section::do_yield('main'); ?>
+				</article>
+			</div>
+		</main>
+		<?php echo view('partials.footer')->with(get_defined_vars())->render(); ?>
+	</div>
+</body>
+</html>

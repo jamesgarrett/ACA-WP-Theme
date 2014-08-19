@@ -1,0 +1,5 @@
+<?php // /Applications/XAMPP/xamppfiles/htdocs/c+c/wp-content/themes/wp-starter-theme/single-flavors.php ?>
+<?php \Laravel\Section::start('main'); ?>
+	<?php echo view('partials.flavor-single')->with(get_defined_vars())->render(); ?>
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>

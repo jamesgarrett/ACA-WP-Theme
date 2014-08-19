@@ -1,0 +1,16 @@
+<?php // /Applications/XAMPP/xamppfiles/htdocs/template/wp-content/themes/aca-custom/portfolio-archive.php ?>
+
+<?php //  ?><?php //  Template Name: Portfolio ?><?php // }} ?>
+<?php \Laravel\Section::start('main'); ?>
+<ul>
+	<?php $bladequery = new WP_Query( array('post_type'=>"projects") ); if ( $bladequery->have_posts() ) : while ( $bladequery->have_posts() ) : $bladequery->the_post(); ?> 
+		<a href="<?php echo the_permalink(); ?>"><li>
+			<h6><?php echo the_title(); ?></h6>
+			<?php echo the_excerpt(); ?>
+		</li></a>
+	<?php endwhile; ?><?php else: ?>
+        <li><?php echo  __( 'Sorry, no posts matched your criteria.' ) ; ?></li>
+	<?php endif; wp_reset_postdata(); ?>
+</ul>
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('layouts.archive')->with(get_defined_vars())->render(); ?>
