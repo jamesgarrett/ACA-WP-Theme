@@ -1,0 +1,109 @@
+//—————————————————————————————————————————
+// 1 | DIMENSIONS + SPATIAL
+//—————————————————————————————————————————
+
+// BREAKPOINTS
+$breakpoint: 32.5rem, 40rem, 50rem, 65rem, 70rem !default;
+$breaks: (
+	xs: nth($breakpoint,1),
+	s : nth($breakpoint,2),
+	m : nth($breakpoint,3),
+	l : nth($breakpoint,4),
+	xl: nth($breakpoint,5),
+);
+
+// WIDTHS
+$max: 70rem   !default;
+$min: 18.8rem !default;
+
+// SPACING
+$columns: 8    !default;
+$gutter : .125rem .25rem .5rem .75rem 1rem 2rem !default;
+
+
+//—————————————————————————————————————————
+// 2 | TYPOGRAPHY
+//—————————————————————————————————————————
+
+// BASE TEXT
+$txt-base-ff: Helvetica Neue, Helvetica, Arial, sans-serif !default;
+$txt-base-fw: 300 !default;
+$txt-base-fz: 16px !default;
+
+// DISPLAY TEXT
+$txt-display-pre:'display-txt-';
+$txt-display-list: 1 2 3 4 5 6;
+$txt-display-fz: 16px !default;
+
+// FONT SIZES
+$fz-xs: 0.775rem !default;
+ $fz-s: 0.875rem !default;
+ $fz-r: 1.000rem !default;
+$fz-ms: 1.700rem !default;
+ $fz-m: 2.000rem !default;
+$fz-xm: 2.500rem !default;
+ $fz-l: 3.000rem !default;
+$fz-xl: 4.500rem !default;
+
+$fz: (
+	xs: $fz-xs,
+	s : $fz-s ,
+	r : $fz-r ,
+	m : $fz-m ,
+	xm: $fz-xm,
+	l : $fz-l ,
+	xl: $fz-xl,
+);
+
+// Paragraph Text 
+$txt-p-lh   : 2;
+$txt-p-align: justify;
+
+//—————————————————————————————————————————
+// 3 | COLORS
+//—————————————————————————————————————————
+
+// BRAND
+$brand: #FD9FC0               !default;
+$alt  : lighten($brand,18.75) !default;
+
+// GREYSCALE
+$gry-0: #FEFEFE !default;
+$gry-1: #202020 !default;
+$gry-2: #555555 !default;
+$gry-3: #999999 !default;
+$gry-4: #DDDDDD !default;
+$gry-5: #F4F4F4 !default;
+
+$gry: $gry-1, $gry-2, $gry-3, $gry-4, $gry-5;
+
+// INTERFACE
+$ui-primary : $brand !default;
+$ui-hint    : $alt   !default;
+$ui-matte   : $gry-0 !default;
+$ui-disabled: $gry-3 !default;
+$ui-border  : $gry-4 !default;
+$ui-text    : $gry-1 !default;
+
+$ui : (
+	text    : $ui-text    ,
+	primary : $ui-primary ,
+	hint    : $ui-hint    ,
+	disabled: $ui-disabled,
+	matte   : $ui-matte   ,
+	border  : $ui-border  ,
+);
+
+// CONTEXTS
+$ctx-pmy: $brand  !default;
+$ctx-scs: #40B485 !default;
+$ctx-wrn: #FABE00 !default;
+$ctx-err: #DD3344 !default;
+
+$ctx: (
+	pmy: $brand ,
+	scs: #40B485,
+	wrn: #FABE00,
+	err: #DD3344,
+	lbl: $gry-3 ,
+);

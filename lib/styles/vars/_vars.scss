@@ -1,0 +1,30 @@
+
+//—————————————————————————————————————————
+//   | UTILITY VARIABLES
+//–––+–––
+//   | Do not change these!
+//—————————————————————————————————————————
+$directions: (
+	t: top,
+	r: right,
+	b: bottom,
+	l: left,
+	v: (top, bottom),
+	h: (right, left),
+	a: (top, right, bottom, left),
+);
+$vertical: (
+	t: top,
+	m: middle,
+	b: bottom,
+);
+$horizontal: (
+	r: right,
+	c: center,
+	l: left,
+);
+$floats: (
+	r: right,
+	l: left,
+	n: none,
+);

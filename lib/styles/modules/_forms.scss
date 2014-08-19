@@ -1,0 +1,28 @@
+.input-wrap {
+	display: table-row;
+	> * {
+		display: table-cell;
+		padding: .5rem 1rem;
+	}
+}
+
+%form--control {
+	@include appearance(none);
+	@include box-sizing(border-box);
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	margin: 0;
+	padding: .5rem;
+	border: 1px solid $ui-border;
+	&:hover, &:focus { z-index: 2; }
+	&:focus {
+		outline: 1px solid $ui-primary;
+		border-color: transparent;
+	}
+}
+
+.wpcf7-form-control,
+.form-control {
+	@extend %form--control;
+}

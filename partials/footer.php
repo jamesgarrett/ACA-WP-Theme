@@ -1,0 +1,1 @@
+<div>&copy; {{ date('M. Y') }}</div>

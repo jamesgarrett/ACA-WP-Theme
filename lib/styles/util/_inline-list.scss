@@ -1,0 +1,8 @@
+.inline-list {
+	%inline-list--item {
+		display: inline-block;
+	}
+	li {
+		@extend %inline-list--item;
+	}
+}

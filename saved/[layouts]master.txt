@@ -1,0 +1,10 @@
+_meta-head
+_header
+
+@pre
+@main
+@side
+@post
+
+_footer
+_meta-foot

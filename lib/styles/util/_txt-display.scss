@@ -1,0 +1,21 @@
+$inc: 0;
+@each $end in $txt-display-list {
+	$inc: $inc + 1 !global;
+	$ln: length($txt-display-list);
+	$end: abs( $inc - ( $ln + 1 ) );
+	$select: $txt-display-pre+$end;
+	%#{$select} {
+		$calc: $txt-display-fz/$ln + ( ($txt-display-fz - abs($inc - $ln)) + ($ln*($inc)) );
+		font-size: $calc;
+		line-height: $calc*1.5;
+		@if ($inc > length($txt-display-list)/2) {
+			font-weight: 100;
+		} @else {
+			font-weight: 300;
+			color: map-get($ui,disabled);
+		}
+		&.txt-display-ruled {
+			border-bottom: 1px solid map-get($ui,border);
+		}
+	}
+}

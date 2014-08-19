@@ -1,0 +1,2005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"scr",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"ne",
+				"nextAll	.nextAll"
+			],
+			[
+				"i",
+				"inludes"
+			],
+			[
+				"imp",
+				"imp	scss_atimport"
+			],
+			[
+				"bxz",
+				"bxz-bb	box-sizing: border-box;"
+			],
+			[
+				"top",
+				"top_offset"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"listpage",
+				"wp_list_pages"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"po",
+				"pos"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"ou",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"mxh",
+				"max-height"
+			],
+			[
+				"out",
+				"outerWidth	.outerWidth"
+			],
+			[
+				"offset",
+				"offsetParent	.offsetParent()"
+			],
+			[
+				"par",
+				"parentsUntil	parentsUntil"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"ls",
+				"list-style"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"loc",
+				"location"
+			],
+			[
+				"numhas",
+				"numhash"
+			],
+			[
+				"mou",
+				"mouseenter	mouseenter"
+			],
+			[
+				"show",
+				"show_overlay"
+			],
+			[
+				"mw",
+				"min-width"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"remov",
+				"remove	.remove()"
+			],
+			[
+				"eac",
+				"each	.each()"
+			],
+			[
+				"get_sub_fie",
+				"get_sub_field"
+			],
+			[
+				"gettempl",
+				"get_template_part"
+			],
+			[
+				"gettemp",
+				"get_template_part"
+			],
+			[
+				"title",
+				"the_title"
+			],
+			[
+				"optbox",
+				"opt_boxes"
+			],
+			[
+				"opt",
+				"opt_tabs"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"table-c",
+				"table-cell"
+			],
+			[
+				"backl",
+				"background-color"
+			],
+			[
+				"set",
+				"set_scheme"
+			],
+			[
+				"admin",
+				"admin_color"
+			],
+			[
+				"gethead",
+				"get_header"
+			],
+			[
+				"get_style",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"app",
+				"appwrap"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"push",
+				"pushable"
+			],
+			[
+				"button",
+				"button-group"
+			],
+			[
+				"ke",
+				"keydown	keydown"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"sl2",
+				"select2"
+			],
+			[
+				"sele",
+				"select2"
+			],
+			[
+				"rmv",
+				"removeClass	.removeClass"
+			],
+			[
+				"s2c",
+				"select2-close"
+			],
+			[
+				"sle",
+				"select2-close"
+			],
+			[
+				"acc",
+				"account_credentials_institution_id"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"parents",
+				"parents	.parents()"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"border-t",
+				"border-top-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"key",
+				"key_bdr"
+			],
+			[
+				"bdra",
+				"border-radius"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"border-right",
+				"border-bottom-right-radius"
+			],
+			[
+				"key_",
+				"key_txt"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"Co",
+				"CodeMirror-wrap"
+			],
+			[
+				"tri",
+				"trigger	trigger"
+			],
+			[
+				"ctrl",
+				"ctrlKey"
+			],
+			[
+				"bra",
+				"brand1"
+			],
+			[
+				"ky_",
+				"ky_bgc"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ff",
+				"ff	font-family"
+			],
+			[
+				"Type",
+				"typeset"
+			],
+			[
+				"load",
+				"loadstyles"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
+				"theme",
+				"theme-color-1"
+			],
+			[
+				"tab",
+				"tabindex"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"act",
+				"active"
+			],
+			[
+				"next",
+				"nextclick"
+			],
+			[
+				"play",
+				"player-wrap"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"base",
+				"base_og"
+			],
+			[
+				"gro",
+				"groupEnd"
+			],
+			[
+				"group",
+				"groupCollapsed"
+			],
+			[
+				"rou",
+				"route	Ember.Route.extend()"
+			],
+			[
+				"the",
+				"theme-color-1"
+			],
+			[
+				"stick",
+				"sticky-wrap"
+			],
+			[
+				"width",
+				"widthdiff"
+			],
+			[
+				"theme-col",
+				"theme-color-2"
+			],
+			[
+				"slid",
+				"slidewrap"
+			],
+			[
+				"sticky",
+				"sticky_nav"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"panel",
+				"panelSelector"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"anim",
+				"animate	animate"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"last",
+				"last-active"
+			],
+			[
+				"_",
+				"_bgi"
+			],
+			[
+				"panelS",
+				"panelSnap"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"bgc",
+				"background-color"
+			],
+			[
+				"theme-co",
+				"theme-color-4"
+			],
+			[
+				"prepend",
+				"prependTo	.prependTo()"
+			],
+			[
+				"acf-",
+				"acf-bgp-cur"
+			],
+			[
+				"getthem",
+				"get_theme_root"
+			],
+			[
+				"per",
+				"preload"
+			],
+			[
+				"getstyleur",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"lt",
+				"ltbx_hide"
+			],
+			[
+				"ltbx",
+				"ltbx_next"
+			],
+			[
+				"ltb",
+				"ltbx_show"
+			],
+			[
+				"view-o",
+				"view-overlay"
+			],
+			[
+				"csl",
+				"console	console.log()"
+			],
+			[
+				"tool",
+				"toolset"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"append",
+				"appendTo	.appendTo()"
+			],
+			[
+				"ye",
+				"year"
+			],
+			[
+				"ani",
+				"animate	animate"
+			],
+			[
+				"txt",
+				"txt-toggle"
+			],
+			[
+				"get_styl",
+				"get_stylesheet_uri"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 63.0,
+		"selected_items":
+		[
+			[
+				"pjv",
+				"Project: Save As"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"sty",
+				"Set Syntax: Tcl"
+			],
+			[
+				"cname",
+				"File: Copy Name"
+			],
+			[
+				"nrc",
+				"File: New File Relative to Current View"
+			],
+			[
+				"",
+				"Bookmarks: Select All"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"m",
+				"File: Move"
+			],
+			[
+				"col",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"incr",
+				"Emmet: Increment Number by 1"
+			],
+			[
+				"v",
+				"File: Move"
+			],
+			[
+				"pje",
+				"Project: Edit"
+			],
+			[
+				"nrp",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"indentation",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"rn",
+				"File: Rename"
+			],
+			[
+				"conf",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"pki",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"nr c",
+				"File: New File Relative to Current View"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pjs",
+				"Project: Save As"
+			],
+			[
+				"cop",
+				"File: Copy Name"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"rev",
+				"File: Reveal"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"copy",
+				"File: Copy Name"
+			],
+			[
+				"ict",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"i",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pk",
+				"Package Control: Install Package"
+			],
+			[
+				"pkv",
+				"Package Control: Remove Package"
+			],
+			[
+				"pkl",
+				"Package Control: List Packages"
+			],
+			[
+				"pj",
+				"Project: Edit"
+			],
+			[
+				"syhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"proj",
+				"Project: Edit"
+			],
+			[
+				"d",
+				"File: Delete"
+			],
+			[
+				"cla",
+				"File: Close All"
+			],
+			[
+				"scope",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"fi",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"cl",
+				"File: Close All"
+			],
+			[
+				"keyus",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"settings",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"pke",
+				"Package Control: Enable Package"
+			],
+			[
+				"easyopen",
+				"EasyOpen;; Jump Back"
+			],
+			[
+				"pkr",
+				"Package Control: Add Repository"
+			],
+			[
+				"pkd",
+				"Package Control: Disable Package"
+			],
+			[
+				"openfrom",
+				"OpenFromPath: Input path"
+			],
+			[
+				"op",
+				"OpenFromPath: Input path"
+			],
+			[
+				"pkiu",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"keyuser",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"stsbr",
+				"View: Toggle Status Bar"
+			],
+			[
+				"struc",
+				"Set Syntax: reStructuredText"
+			],
+			[
+				"sttb",
+				"View: Toggle Status Bar"
+			],
+			[
+				"ic",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"syhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"syht",
+				"Set Syntax: HTML"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"t",
+				"View: Toggle Tabs"
+			],
+			[
+				"tb",
+				"View: Toggle Tabs"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"idnt",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"packl",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Create Binary Package File"
+			],
+			[
+				"kyu",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"nrv",
+				"File: New File Relative to Current View"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"indent",
+				"Auto indent"
+			],
+			[
+				"pkrv",
+				"Package Control: Remove Package"
+			],
+			[
+				"syphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"ttlcas",
+				"Convert Case: Title Case"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"ycss",
+				"Set Syntax: CSS"
+			],
+			[
+				"st",
+				"View: Toggle Status Bar"
+			],
+			[
+				"yphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"nfv",
+				"File: New File Relative to Current View"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pkar",
+				"Package Control: Add Repository"
+			],
+			[
+				"pkik",
+				"Package Control: Install Package"
+			],
+			[
+				"syjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"vtabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"preset",
+				"Preset Command: Manage Presets"
+			],
+			[
+				"clo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"syco",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"nfpr",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"copyp",
+				"File: Copy Path"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"cas",
+				"Convert Case: Swap Case"
+			],
+			[
+				"ta",
+				"View: Toggle Tabs"
+			],
+			[
+				"swap",
+				"Convert Case: Swap Case"
+			],
+			[
+				"casesw",
+				"Convert Case: Swap Case"
+			],
+			[
+				"yjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"cvt",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ysc",
+				"Set Syntax: SCSS"
+			],
+			[
+				"yhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"yhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"yscs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ys",
+				"Set Syntax: SCSS"
+			],
+			[
+				"yscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"yc",
+				"Set Syntax: CSS"
+			],
+			[
+				"sylmd",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"cased",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"reload",
+				"Emmet: Reload Extensions"
+			],
+			[
+				" color",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"sycss",
+				"Set Syntax: CSS"
+			],
+			[
+				"syntaxspe",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 300.0,
+		"history":
+		[
+			"bash cd ~/Documents",
+			"file",
+			"help",
+			"\\help",
+			"help",
+			"cd ~/Documents/Work",
+			"cd ~",
+			"cd",
+			"ls",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/content/_menu.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/content/_the-flavors.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/content/_the-story.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/content/_the-pledge.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_media-module.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_layouts.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_specifics.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_backgrounds.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/fonts/clarendon/Superclarendon-Light.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_menu.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/fonts/clarendon/Superclarendon-Bold.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_typography.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/_foot.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/_head.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/_meta.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/content/_brand.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/_footer.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_panel.scss",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/cup-and-compass.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/_header.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/content/_the-pull.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/_config.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_color-schemes.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_pills.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_pushables.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/_elements.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/_flavors.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/_utils.scss",
+		"/Users/rafegoldberg/Library/Caches/Cleanup At Startup/Transmit/2BA1E3C3-2AD7-410E-AD2A-BE9E0159FDAE/_config.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/fonts/clarendon/bold.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/fonts/clarendon/light.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/includes/_menu.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/fonts/Clarendon/clarendon.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/fonts/Clarendon/import.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/fonts/Clarendon/import.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/fonts/Clarendon/styles.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/fonts/Superclarendon-Light/light.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/fonts/Superclarendon-Light/styles.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/assets/css/modules/_brand-img.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/c-and-c/cc2.sublime-project",
+		"/Users/rafegoldberg/Documents/Hammer/Basic/assets/css/_defaults.scss",
+		"/Users/rafegoldberg/Documents/Hammer/Basic/assets/css/_config.scss",
+		"/Users/rafegoldberg/Documents/Hammer/Basic/assets/css/style.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/1/assets/css/concise/_defaults.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/1/assets/js/concise/dropdown.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/1/assets/js/concise/non-responsive.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/1/assets/js/app.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/1/assets/js/concise/naver.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/1/assets/css/style.scss",
+		"/Users/rafegoldberg/Documents/Hammer/Basic/includes/_nav.html",
+		"/Users/rafegoldberg/Documents/Hammer/Basic/assets/js/app.js",
+		"/Users/rafegoldberg/Documents/Hammer/Basic/project.sublime-project",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/modules/_menu.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/modules/_brand-img.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/includes/_header.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/index.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/includes/_menu.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/style.scss",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/css_initial.sublime-snippet",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/css_inherit.sublime-snippet",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/_elements.scss",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/scss_@extend.sublime-snippet",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/scss_atmixin.sublime-snippet",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/scss_@mixin.sublime-snippet",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/scss_atextend.sublime-snippet",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/includes/_nav.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/modules/_panel.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/modules/nav.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/_util.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/_panel.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/js/app.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/_defaults.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/_config.scss",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/scss_default.sublime-snippet",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/_vars.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/includes/content/_corporate.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/assets/css/_mixins.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/1/includes/content/_flavors.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/2/cc2.sublime-project",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/index.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/content/_press.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/content/_awards.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/js/app.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/modules/_module.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/_header.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/js/brandimg-animate.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/defaults/_elements.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/header/_brand.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/modules/_brandimg.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/style.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/modules/_brand.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/header/_brand-img-animate.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/js/brand-img-animate.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/content/_corporate.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/header/_brand-animated.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/header/_nav.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/modules/_lists.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/modules/_logo.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/js/logo-animate.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/base/_container.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/base/_selection.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/js/concise/dropdown.js",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/js/jq.royalSlider.min.js",
+		"/Users/rafegoldberg/Library/Caches/Cleanup At Startup/Transmit/AB6F9DCD-56A2-4792-9630-1BE2C6F40EA4/app.js",
+		"/Users/rafegoldberg/Library/Caches/Cleanup At Startup/Transmit/9B20129D-45AC-442E-ACC3-2D21F0426460/wp-config.php",
+		"/Users/rafegoldberg/Library/Application Support/Sublime Text 3/Packages/User/Quick PHP.sublime-snippet",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/utils/_bxsh.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/defaults/_layout.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/_overrides.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/royalSlider/_overrides.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/base/_lists.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/modules/_elements.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/modules/_size.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/objects/_dropdowns.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/base/_blockquotes.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/objects/_badges.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/content/_story.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/generic/_helper.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/royalSlider/_theme.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/_import.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise/base/_main.scss",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/corporate.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/flavors.html",
+		"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/includes/_footer.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/assets/css/concise",
+			"/Users/rafegoldberg/Documents/Work/Cup & Compass/Site/c+c-frontend/",
+			"/Applications/XAMPP/htdocs/launch_now/",
+			"/Applications/XAMPP/htdocs/launch_now/wp-content/themes/",
+			"/Applications/XAMPP/htdocs/launch_now/wp-content/themes/launch_theme",
+			"/Applications/XAMPP/htdocs/newman/",
+			"/Users/rafegoldberg/Documents/Work/Smooth/repo",
+			"<open folders>",
+			"/Users/rafegoldberg/Documents/Work/Smooth/smooth_repo/",
+			"/Users/rafegoldberg/Documents/Work/Smooth/smooth_repo/app/assets,/Users/rafegoldberg/Documents/Work/Smooth/smooth_repo/app/views",
+			"",
+			"/Users/rafegoldberg/Documents/Work/Smooth/smooth_repo",
+			"<open files>",
+			"",
+			"/Users/rafegoldberg/Documents/Work/Ramsay/Site/NationBuilder/Dev Site Custom Theme/carolynramsay-529a1e8101925b037b000002/",
+			"/Users/rafegoldberg/Documents/Work/Smooth/smooth_repo/",
+			"/Users/rafegoldberg/Documents/Work/Smooth/smooth_repo",
+			"/Users/rafegoldberg/Documents/Work/Ramsay/Site/NationBuilder/Dev Site Custom Theme/carolynramsay-529a1e8101925b037b000002",
+			"/Volumes/SE- LeanTheme",
+			"/Users/rafegoldberg/Documents/Work/Ramsay/Site/NationBuilder/Dev Site Custom Theme/carolynramsay-529a1e8101925b037b000002",
+			"/Users/rafegoldberg/Documents/Work/Ramsay/Site/NationBuilder/Dev Site/Custom Theme/carolynramsay-529a1e8101925b037b000002",
+			"/Users/rafegoldberg/Documents/Work/Ramsay/Site/NationBuilder/Dev\\ Site\\ Custom\\ Theme/carolynramsay-529a1e8101925b037b000002",
+			"/Users/rafegoldberg/Documents/Work/Ramsay/NationBuilder/Dev Site Custom Theme",
+			"/Volumes/SE- LeanTheme",
+			"/Users/rafegoldberg/Sites/smooth",
+			"<current file>,<open folders>,/Users/rafegoldberg/Sites/smooth",
+			"<current file>",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"layouts",
+			"<div class=\"sect module media-module\">",
+			"</aside>",
+			"<h5>",
+			"<h1>Flavor ",
+			"  ",
+			"75",
+			"75x",
+			"250x250 ",
+			"35s",
+			"white",
+			"matte",
+			"rgba(",
+			"250x250",
+			"header",
+			"<header>",
+			"<!-- @include _",
+			"</header>\n					<article>",
+			"class=\"sect module media-module\"",
+			"<header>",
+			"royalSlider",
+			"royalSliderroyalSlider",
+			"sect module media-module\">",
+			"Light",
+			"Ligh",
+			"box",
+			"125",
+			"blue",
+			"img",
+			":",
+			"event",
+			"dodgerblue",
+			"FAFAFA",
+			"alt",
+			"matte",
+			"brand",
+			"wrap",
+			"backgrounds",
+			"wrap",
+			"00",
+			"cell",
+			"lighter",
+			"normal",
+			"--",
+			"'--",
+			"font-family: '--",
+			"Superclarendon-",
+			"includ",
+			": ;",
+			";",
+			":",
+			"/*ALIAS*/",
+			": ",
+			"		/*ALIAS*/\n",
+			":",
+			"/*ALIAS*/ ",
+			"ui",
+			"/*—ALIAS—*/",
+			"/*ALIAS*/",
+			"     ",
+			"dodgerblue",
+			"$gry-",
+			"alias",
+			"      ",
+			" :",
+			": #",
+			"\"vname\": ",
+			"matte",
+			"\"alias\": [",
+			"0",
+			"\"color\": \"",
+			"      ",
+			"/*",
+			"	$",
+			"\n$ui",
+			"alias",
+			"   ",
+			"     ",
+			"      ",
+			": $ui-",
+			"$ui-",
+			"	},\n",
+			"$ui-",
+			"\",",
+			"\"vname\"",
+			"brand",
+			"4",
+			"warn",
+			"order",
+			"\"order\":",
+			"hint",
+			"warn",
+			"2-1",
+			"2",
+			"\"order\":",
+			"err",
+			"error",
+			"0099FF",
+			"hint",
+			"greyscale",
+			"text",
+			"{[",
+			"202020",
+			"focus",
+			"AAA",
+			"DDD",
+			"555",
+			"999",
+			"DDD",
+			"F6F6F6",
+			"; ",
+			": ",
+			"],\n		\"clist\":",
+			"clist",
+			": {",
+			" }",
+			" {",
+			" .",
+			"body",
+			"\n		]",
+			": {",
+			"		]",
+			"\"order\": ",
+			"\"order\": 0,",
+			"},   {",
+			"\"",
+			"      ",
+			"    "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}",
+			"ff",
+			"// Suppose you have a 'project' custom post type and you want to add the publisher\n// and project author in the edit page but remove the post author.\n\nadd_filter( 'manage_edit-project_columns', 'set_custom_edit_project_columns' );\nadd_action( 'manage_project_posts_custom_column' , 'custom_project_column', 10, 2 );\n\nfunction set_custom_edit_project_columns($columns) {\n    // unset( $columns['author'] );\n    $columns['project_area'] = __( 'Area', 'your_text_domain' );\n    // $columns['publisher'] = __( 'Publisher', 'your_text_domain' );\n    return $columns;\n}\n\nfunction custom_project_column( $column, $post_id ) {\n    switch ( $column ) {\n        case 'project_author' :\n            $terms = get_the_term_list( $post_id , 'project_author' , '' , ',' , '' );\n            if ( is_string( $terms ) )\n                echo $terms;\n            else\n                _e( 'Unable to get author(s)', 'your_text_domain' );\n            break;\n        /*case 'publisher' :\n            echo get_post_meta( $post_id , 'publisher' , true ); \n            break;*/\n        \n\n    }\n}",
+			"0",
+			"%);",
+			"$breakpoints",
+			"$push",
+			"$key_",
+			"\nrgba(black,",
+			"\n    ",
+			"com",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 43.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 678.0
+	},
+	"output.scope_viewer":
+	{
+		"height": 33.0
+	},
+	"project": "wp-c+c.sublime-project",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"el",
+				"Stylesheets/_elements.scss"
+			],
+			[
+				"flav",
+				"Includes/content/_the-flavors.html"
+			],
+			[
+				"mnc",
+				"Stylesheets/modules/_menu.scss"
+			],
+			[
+				"pn",
+				"Stylesheets/modules/_panel.scss"
+			],
+			[
+				"the-",
+				"Includes/content/_the-pledge.html"
+			],
+			[
+				"x",
+				"Cup & Compass/index.html"
+			],
+			[
+				"st",
+				"Includes/content/_the-story.html"
+			],
+			[
+				"sty",
+				"Stylesheets/style.scss"
+			],
+			[
+				"lay",
+				"Stylesheets/modules/_layouts.scss"
+			],
+			[
+				"typ",
+				"Stylesheets/modules/_typography.scss"
+			],
+			[
+				"lv",
+				"Includes/content/_the-flavors.html"
+			],
+			[
+				"mens",
+				"Stylesheets/modules/_menu.scss"
+			],
+			[
+				"thest",
+				"Includes/content/_the-story.html"
+			],
+			[
+				"foo",
+				"Includes/_footer.html"
+			],
+			[
+				"h",
+				"Includes/_header.html"
+			],
+			[
+				"bran",
+				"Includes/content/_brand.html"
+			],
+			[
+				"he",
+				"Includes/_header.html"
+			],
+			[
+				"i",
+				"Cup & Compass/index.html"
+			],
+			[
+				"fv",
+				"Includes/content/_the-flavors.html"
+			],
+			[
+				"brand",
+				"Includes/content/_brand.html"
+			],
+			[
+				"mn",
+				"Includes/content/_menu.html"
+			],
+			[
+				"pnl",
+				"Stylesheets/modules/_panel.scss"
+			],
+			[
+				"foot",
+				"Includes/_footer.html"
+			],
+			[
+				"men",
+				"Includes/content/_menu.html"
+			],
+			[
+				"nc/",
+				"Includes/content/_the-story.html"
+			],
+			[
+				"ly",
+				"Stylesheets/modules/_layouts.scss"
+			],
+			[
+				"cg",
+				"Stylesheets/_config.scss"
+			],
+			[
+				"mns",
+				"Stylesheets/modules/_menu.scss"
+			],
+			[
+				"mnu",
+				"Includes/content/_menu.html"
+			],
+			[
+				"color",
+				"Stylesheets/modules/_color-schemes.scss"
+			],
+			[
+				"pan",
+				"Stylesheets/modules/_panel.scss"
+			],
+			[
+				"ppj",
+				"Javascripts/app.js"
+			],
+			[
+				"p",
+				"Stylesheets/modules/_panel.scss"
+			],
+			[
+				"spe",
+				"Stylesheets/modules/_specifics.scss"
+			],
+			[
+				"hpll",
+				"Includes/content/_the-pull.html"
+			],
+			[
+				"hpl",
+				"Includes/content/_the-pull.html"
+			],
+			[
+				"app",
+				"Javascripts/app.js"
+			],
+			[
+				"sp",
+				"Stylesheets/modules/_specifics.scss"
+			],
+			[
+				"mnh",
+				"Includes/content/_menu.html"
+			],
+			[
+				"try",
+				"Includes/content/_the-story.html"
+			],
+			[
+				"ty",
+				"Stylesheets/modules/_typography.scss"
+			],
+			[
+				"uti",
+				"Stylesheets/_utils.scss"
+			],
+			[
+				"ut",
+				"Stylesheets/_utils.scss"
+			],
+			[
+				"pi",
+				"Stylesheets/modules/_pills.scss"
+			],
+			[
+				"cf",
+				"Stylesheets/_config.scss"
+			],
+			[
+				"pul",
+				"Includes/content/_the-pull.html"
+			],
+			[
+				"m/",
+				"Stylesheets/modules/_backgrounds.scss"
+			],
+			[
+				"type",
+				"Stylesheets/modules/_panel.scss"
+			],
+			[
+				"_html",
+				"Includes/content/_the-pull.html"
+			],
+			[
+				"con",
+				"Stylesheets/_config.scss"
+			],
+			[
+				"stor",
+				"Includes/content/_the-story.html"
+			],
+			[
+				"ele",
+				"Stylesheets/_elements.scss"
+			],
+			[
+				"in",
+				"Cup & Compass/index.html"
+			],
+			[
+				"co",
+				"Stylesheets/_config.scss"
+			],
+			[
+				"def",
+				"Stylesheets/_defaults.scss"
+			],
+			[
+				"menh",
+				"Includes/_menu.html"
+			],
+			[
+				"nav",
+				"Includes/_nav.html"
+			],
+			[
+				"hea",
+				"Includes/_header.html"
+			],
+			[
+				"m/nav",
+				"Stylesheets/modules/_nav.scss"
+			],
+			[
+				"pane",
+				"Stylesheets/_panel.scss"
+			],
+			[
+				"mixi",
+				"Stylesheets/_mixins.scss"
+			],
+			[
+				"v",
+				"Stylesheets/_vars.scss"
+			],
+			[
+				"head",
+				"Includes/_header.html"
+			],
+			[
+				"",
+				"Stylesheets/style.scss"
+			],
+			[
+				"pre",
+				"Includes/content/_press.html"
+			],
+			[
+				"me",
+				"Stylesheets/modules/_module.scss"
+			],
+			[
+				"e",
+				"Stylesheets/defaults/_elements.scss"
+			],
+			[
+				"brscs",
+				"Stylesheets/modules/_brand.scss"
+			],
+			[
+				"brandan.ht",
+				"Includes/header/_brand-animated.html"
+			],
+			[
+				"brandan",
+				"Javascripts/brand-img-animate.js"
+			],
+			[
+				"in/",
+				"Includes/header/_nav.html"
+			],
+			[
+				"mod/lo",
+				"Stylesheets/modules/_logo.scss"
+			],
+			[
+				"mod/l",
+				"Stylesheets/modules/_lists.scss"
+			],
+			[
+				"mod/",
+				"Stylesheets/modules/_lists.scss"
+			],
+			[
+				"b",
+				"Includes/header/_brand.html"
+			],
+			[
+				"n",
+				"Includes/header/_nav.html"
+			],
+			[
+				"mo",
+				"Stylesheets/modules/_module.scss"
+			],
+			[
+				"over",
+				"Stylesheets/concise/_overrides.scss"
+			],
+			[
+				"elem",
+				"Stylesheets/modules/_elements.scss"
+			],
+			[
+				"siz",
+				"Stylesheets/modules/_size.scss"
+			],
+			[
+				"list",
+				"Stylesheets/concise/base/_lists.scss"
+			],
+			[
+				"corp",
+				"C&C Frontend/corporate.html"
+			],
+			[
+				"sz",
+				"Stylesheets/modules/_size.scss"
+			],
+			[
+				"size",
+				"Stylesheets/modules/_size.scss"
+			],
+			[
+				"the",
+				"Stylesheets/royalSlider/_theme.scss"
+			],
+			[
+				"ov",
+				"Stylesheets/royalSlider/_overrides.scss"
+			],
+			[
+				"mod",
+				"Stylesheets/modules/_module.scss"
+			],
+			[
+				"roy",
+				"Stylesheets/_royalSlider-theme.scss"
+			],
+			[
+				"pp",
+				"Javascripts/app.js"
+			],
+			[
+				"royal",
+				"Stylesheets/_royalSlider-theme.scss"
+			],
+			[
+				"ind",
+				"C&C Frontend/index.html"
+			],
+			[
+				"bxs",
+				"Stylesheets/defaults/_bxsh.scss"
+			],
+			[
+				"fla",
+				"Includes/panels/_flavors.html"
+			],
+			[
+				"nav.h",
+				"Includes/header/_nav.html"
+			],
+			[
+				"f",
+				"Includes/panels/_flavors.html"
+			],
+			[
+				"corpo",
+				"C&C Frontend/corporate.html"
+			],
+			[
+				"style",
+				"Stylesheets/style.scss"
+			],
+			[
+				"bra",
+				"Includes/header/_brand.html"
+			],
+			[
+				"concise",
+				"Stylesheets/concise/concise.scss"
+			],
+			[
+				"conci/hel",
+				"Stylesheets/concise/generic/_helper.scss"
+			],
+			[
+				"br",
+				"Includes/header/_brand.html"
+			],
+			[
+				"fl",
+				"Includes/panels/_flavors.html"
+			],
+			[
+				"he/",
+				"includes/header/_brand.html"
+			],
+			[
+				"im",
+				"scss/_import.scss"
+			],
+			[
+				"var",
+				"scss/config/_variables.scss"
+			],
+			[
+				"func",
+				"scss/config/_functions.scss"
+			],
+			[
+				"imp",
+				"Stylesheets/_import.scss"
+			],
+			[
+				"soc",
+				". / wp / php/social-share.php"
+			],
+			[
+				"too",
+				"admin/tools.php"
+			],
+			[
+				"tipr",
+				"lib/styles/_tipr.scss"
+			],
+			[
+				"tip",
+				"lib/styles/_tipr.scss"
+			],
+			[
+				"veq",
+				"—— ROOT ——/archive-equipment.php"
+			],
+			[
+				"det",
+				"—— ROOT ——/determine.php"
+			],
+			[
+				"scr",
+				"Root / Partials/foot-scripts.php"
+			],
+			[
+				"cpt",
+				"Lib / Scripts/wp/php/xtnl.ctp-equipment.php"
+			],
+			[
+				"eq",
+				"—— ROOT ——/single-equipment.php"
+			],
+			[
+				"norma",
+				"                 Theme/components/_normalize.scss"
+			],
+			[
+				"base",
+				"                 Theme/components/_base.scss"
+			],
+			[
+				"norm",
+				"                 Theme/components/_normalize.scss"
+			],
+			[
+				"ctpq",
+				"Scripts  >  Admin/php/xtnl.ctp-equipment.php"
+			],
+			[
+				"ctp",
+				"Scripts  >  Admin/php/xtnl.ctp-portfolio.php"
+			],
+			[
+				"fun",
+				"Theme  >  Root/functions.php"
+			],
+			[
+				"part/",
+				"                 Partials/footer-scripts.php"
+			],
+			[
+				"pje",
+				"Scripts - Admin/js/acf-edit.js"
+			],
+			[
+				"comp",
+				"Theme - Root/components/_wp-theme-declare.css"
+			],
+			[
+				"tmpl/",
+				"Theme - Templates/feature.php"
+			],
+			[
+				"enq",
+				"Scripts - Admin/php/xtnl.enq-admin.php"
+			],
+			[
+				"detm",
+				"Project Root/determine.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/frame-test/fame-test.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

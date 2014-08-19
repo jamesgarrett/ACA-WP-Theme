@@ -1,0 +1,10 @@
+%current {
+	background: $ui-primary;
+	// padding: .275rem .325rem;
+	// border-radius: 2px;
+	color: setColor($ui-primary);
+}
+
+[class*="current"] {
+	@extend %current;
+}

@@ -1,0 +1,61 @@
+@mixin mq($k,$x) {
+	$k: map-get($breaks,$k);
+	@media only screen and ($x: $k) {
+		@content;
+	}
+}
+
+@mixin show-mq {
+	$hue: 10deg;
+	$adj: 35;
+	&:after {
+		content: 'Default';
+		position: fixed;
+		z-index: 9999999999;
+		display: block;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: .75em .8em;
+		box-sizing: content-box;
+		font-size: .62rem;
+		font-weight: normal;
+		color: #1E90FF;
+		background: rgba(#FFF,.75);
+	}
+	@include mq(xl,max-width) {
+		&:after {
+			$hue: $hue+$adj;
+			content: 'XL | '+map-get($breaks,xl);
+			color: adjust-hue($ui-primary,$hue);
+		}
+	}
+	@include mq(l,max-width)  {
+		&:after {
+			$hue: $hue+$adj;
+			content: 'L | '+map-get($breaks,l);
+			color: adjust-hue($ui-primary,$hue);
+		}
+	}
+	@include mq(m,max-width)  {
+		&:after {
+			$hue: $hue+$adj;
+			content: 'M | '+map-get($breaks,m);
+			color: adjust-hue($ui-primary,$hue);
+		}
+	}
+	@include mq(s,max-width)  {
+		&:after {
+			$hue: $hue+$adj;
+			content: 'S | '+map-get($breaks,s);
+			color: adjust-hue($ui-primary,$hue);
+		}
+	}
+	@include mq(xs,max-width) {
+		&:after {
+			$hue: $hue+$adj;
+			content: 'XS | '+map-get($breaks,xs);
+			color: adjust-hue($ui-primary,$hue);
+		}
+	}
+}

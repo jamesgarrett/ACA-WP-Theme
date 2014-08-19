@@ -1,0 +1,20 @@
+@mixin clearfix(){
+	// IE 6/7
+	*zoom:expression(this.runtimeStyle.zoom="1",this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif"); //JS
+	*zoom: 1; // NO JS
+	&:before, &:after {
+		content: " ";
+		display: table;
+	}
+	&:after { clear: both; }
+}
+
+//———————————————————————————————————————————————————
+// 𝓲 | CLEARFIX
+//   |
+//   @ http://goo.gl/qdJOAc + http://goo.gl/XW4xF
+//———————————————————————————————————————————————————
+%clfx {
+	@include clearfix();
+}
+.clfx { @extend %clfx; }

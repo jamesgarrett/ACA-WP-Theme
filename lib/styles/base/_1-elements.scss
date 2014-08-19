@@ -1,0 +1,165 @@
+//————————————————————————————————————————————————————
+// ALL
+//
+* {}
+
+//————————————————————————————————————————————————————
+// PAGE
+// 
+html {
+	font-family: $txt-base-ff;
+	font-weight: $txt-base-fw;
+	font-size: $txt-base-fz;
+}
+body {
+	font-size: 100%;
+}
+
+//————————————————————————————————————————————————————
+// SECTIONS
+// 
+section { @extend %section; }
+nav     { @extend %section; }
+article { @extend %section; }
+aside   { @extend %section; }
+header  { @extend %section; }
+footer  { @extend %section; }
+address { @extend %section; }
+main    { @extend %section; }
+
+//————————————————————————————————————————————————————
+// HEADINGS
+//
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	@extend %display-txt-3;
+}
+$headers:(1,2,3,4,5,6);
+@each $z in $headers {
+	$select: h+$z;
+	$level : $txt-display-pre+$z;
+	.content #{$select} {
+		@extend %#{$level};
+	}
+}
+
+//————————————————————————————————————————————————————
+// GROUPING ELEMENTS
+// 
+p {}
+hr {}
+pre {}
+blockquote {}
+ol {}
+ul {}
+li {}
+dl {}
+dt {}
+dd {}
+figure {}
+figcaption {}
+div {}
+
+//————————————————————————————————————————————————————
+// TEXT-LEVEL SEMANTICS
+// 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+em {}
+strong {}
+small {}
+s {}
+cite {}
+q {}
+dfn {}
+abbr {}
+data {}
+time {}
+code {}
+var {}
+samp {}
+kbd {}
+sub, sup {}
+i {}
+b {}
+u {}
+mark {}
+ruby {}
+rt {}
+rp {}
+bdi {}
+bdo {}
+span {}
+br {}
+wbr {}
+
+
+//————————————————————————————————————————————————————
+// EDITS
+// 
+ins {}
+del {}
+
+//————————————————————————————————————————————————————
+// EMBEDDED CONTENT
+// 
+img {}
+iframe {}
+embed {}
+object {}
+param {}
+video {}
+audio {}
+source {}
+track {}
+canvas {}
+map {}
+area {}
+svg {}
+math {}
+
+
+//————————————————————————————————————————————————————
+// TABULAR DATA
+// 
+table {}
+caption {}
+colgroup {}
+col {}
+tbody {}
+thead {}
+tfoot {}
+tr {}
+td {}
+th {}
+
+//————————————————————————————————————————————————————
+// FORMS
+// 
+%form-control-reset {}
+form {}
+fieldset {}
+legend {}
+label {}
+input {}
+button {}
+select {}
+datalist {}
+optgroup {}
+option {}
+textarea {}
+keygen {}
+output {}
+progress {}
+meter {}
+
+
+//————————————————————————————————————————————————————
+// INTERACTIVE ELEMENTS
+// 
+details {}
+summary {}
+menuitem {}
+menu {}
