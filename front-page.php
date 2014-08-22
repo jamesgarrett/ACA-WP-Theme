@@ -1,5 +1,5 @@
 @layout('layouts.master')
 
 @section('main')
-	<h1>{{the_title()}}</h1>
+	<h2>{{the_title()}}</h2>
 @endsection

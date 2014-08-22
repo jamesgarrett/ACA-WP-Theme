@@ -1,9 +1,9 @@
 {
 	"folders":
 	[
-		// {"name": "Root","follow_symlinks":true,"path":"."},
 		{
-			"file_exclude_patterns": [
+			"file_exclude_patterns":
+			[
 				"lib/plugins/*/*",
 				"*.sublime-*",
 				"*.codekit*",
@@ -11,16 +11,17 @@
 				"app.min.*",
 				".git*",
 				"README*",
-				"*.rb",
+				"*.rb"
 			],
-			"folder_exclude_patterns": [
+			"folder_exclude_patterns":
+			[
 				".*",
 				"lib/plugins/*/*",
 				"lib",
 				"saved",
 				"assets",
 				"layouts",
-				"partials",
+				"partials"
 			],
 			"follow_symlinks": true,
 			"name": "Theme Root",
@@ -29,53 +30,60 @@
 		{
 			"follow_symlinks": true,
 			"name": "Styles",
-			"path": "./lib/styles"
+			"path": "lib/styles"
 		},
 		{
+			"folder_exclude_patterns":
+			[
+				"lib/scripts/*min"
+			],
 			"follow_symlinks": true,
 			"name": "Scripts",
-			"folder_exclude_patterns": [
-				"lib/scripts/*min",
-			],
-			"path": "./lib/scripts"
+			"path": "lib/scripts"
 		},
 		{
 			"follow_symlinks": true,
 			"name": "Layouts",
-			"path": "./layouts"
+			"path": "layouts"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Views",
+			"path": "views"
 		},
 		{
 			"follow_symlinks": true,
 			"name": "Partials",
-			"path": "./partials"
+			"path": "partials"
 		},
 		{
 			"follow_symlinks": true,
 			"name": "Image Assets",
-			"path": "./assets/imgs"
+			"path": "assets/imgs"
 		},
 		{
-			"follow_symlinks": true,
-			"folder_exclude_patterns": [
-				"imgs",
+			"folder_exclude_patterns":
+			[
+				"imgs"
 			],
+			"follow_symlinks": true,
 			"name": "Misc. Assets",
-			"path": "./assets"
+			"path": "assets"
 		},
 		{
 			"follow_symlinks": true,
 			"name": "Functions",
-			"path": "./lib/func"
+			"path": "lib/func"
 		},
 		{
 			"follow_symlinks": true,
 			"name": "WP Plugins",
-			"path": "./lib/plugins"
+			"path": "lib/plugins"
 		},
 		{
 			"follow_symlinks": true,
 			"name": "Saved Files",
-			"path": "./saved"
-		},
+			"path": "saved"
+		}
 	]
 }
