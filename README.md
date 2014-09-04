@@ -1,7 +1,7 @@
 ACA-WP-Theme
 ============
 
-This is a base Wordpress theme template used for [ACA](http://architects.agency)'s client work.
+This is the base Wordpress theme template used for [ACA](http://architects.agency)'s client work.
 
 ## License
 
