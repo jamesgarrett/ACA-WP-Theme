@@ -1,5 +1,5 @@
 @mixin mq($k,$x) {
-	$k: map-get($breaks,$k);
+	$k: if( type-of($k)==number, $k, map-get($breaks,$k) );	
 	@media only screen and ($x: $k) {
 		@content;
 	}
