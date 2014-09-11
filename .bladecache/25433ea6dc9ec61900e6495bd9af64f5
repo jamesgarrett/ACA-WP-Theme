@@ -1,11 +1,0 @@
-<?php // /Applications/XAMPP/xamppfiles/htdocs/c+c/wp-content/themes/wp-starter-theme/archive-flavors.php ?>
-<?php //   ?><?php //  Template Name: Flavors Archive Page ?><?php // }} ?><?php \Laravel\Section::start('main'); ?>
-	<? $data = array(
-		  "title" => get_the_title()!='' ? get_the_title() : '',
-		"content" => get_field("page_copy")
-	);
-	jsl(get_field("page_copy"));
-	?>
-	<?php echo view('partials.flavor-list',$data)->with(get_defined_vars())->render(); ?>
-<?php \Laravel\Section::stop(); ?>
-<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>

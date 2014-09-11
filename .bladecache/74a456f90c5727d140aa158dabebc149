@@ -1,6 +1,0 @@
-<?php if (isset($platform)): ?>
-
-	<? $icn = get_stylesheet_directory()."/assets/social-icons/$platform.svg"; ?>
-	<? include $icn; ?>
-
-<?php endif; ?>

@@ -1,1 +1,0 @@
-<div>&copy; <?php echo  date('M. Y') ; ?></div>

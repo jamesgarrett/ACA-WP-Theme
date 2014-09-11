@@ -1,32 +1,0 @@
-<?php // /Applications/XAMPP/xamppfiles/htdocs/c+c/wp-content/themes/wp-starter-theme/home.php ?>
-
-<?php //  ?><?php //  Template Name: Home ?><?php // }} ?>
-<?php \Laravel\Section::start('main'); ?>
-	<section class="grid">
-		<div id="home-slug" class="row auto align-center">
-			<div class="cell">
-				<h1 class="txt-display fz-xl ta-c"><?php echo get_field('home_heading'); ?></h1>
-			</div>
-		</div>
-	</section>
-	<?php echo view('partials.flavor-list')->with(get_defined_vars())->render(); ?>
-	<section class="grid">
-		<div class="row auto align-center">
-			<div id="home-img" class="cell p-g-rmv va-b ta-l span-2">
-				<img width="85%" height="auto" src="<?php echo get_field('home_artwork'); ?>" alt="">
-			</div>
-			<div class="cell ta-c">
-				<span class="d-ib"><?php echo get_field('home_description'); ?></span>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="royalSlider">
-			<?php foreach (get_field('home_slideshow') as $img): ?>
-			<a class="rsImg" href="<?php echo $img['url']; ?>"></a>
-			<?php endforeach; ?>
-		</div>
-	</section>
-	<?php echo view('partials.partners-list')->with(get_defined_vars())->render(); ?>
-<?php \Laravel\Section::stop(); ?>
-<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>

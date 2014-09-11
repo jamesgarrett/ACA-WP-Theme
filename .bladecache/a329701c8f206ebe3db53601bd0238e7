@@ -1,6 +1,0 @@
-<?php // /Applications/XAMPP/xamppfiles/htdocs/template/wp-content/themes/aca-custom/front-page.php ?>
-
-<?php \Laravel\Section::start('main'); ?>
-	<h1><?php echo the_title(); ?></h1>
-<?php \Laravel\Section::stop(); ?>
-<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>

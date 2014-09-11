@@ -1,7 +1,0 @@
-<?php // /Applications/XAMPP/xamppfiles/htdocs/c+c/wp-content/themes/wp-starter-theme/page.php ?>
-<?php \Laravel\Section::start('main'); ?>
-	<section>
-		<?php echo the_title(); ?>
-	</section>
-<?php \Laravel\Section::stop(); ?>
-<?php echo view('layouts.master')->with(get_defined_vars())->render(); ?>
