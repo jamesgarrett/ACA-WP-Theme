@@ -1,0 +1,76 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"lib/plugins/*/*",
+				"*.sublime-*",
+				"*.codekit*",
+				"style.css",
+				"app.min.*",
+				".git*",
+				"README*",
+				"*.rb"
+			],
+			"folder_exclude_patterns":
+			[
+				".*",
+				"lib/plugins/*/*",
+				"lib",
+				"views",
+				"assets",
+				"saved",
+				"layouts",
+				"partials"
+			],
+			"follow_symlinks": true,
+			"name": "Theme Root",
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Styles",
+			"path": "lib/styles"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				"lib/scripts/*min"
+			],
+			"follow_symlinks": true,
+			"name": "Scripts",
+			"path": "lib/scripts"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Layouts",
+			"path": "layouts"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Views",
+			"path": "views"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Partials",
+			"path": "partials"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Assets",
+			"path": "assets"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Functions",
+			"path": "lib/func"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Saved Files",
+			"path": "saved"
+		}
+	]
+}

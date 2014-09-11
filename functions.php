@@ -1,8 +1,8 @@
 <?
 foreach(array(
-    'blade-conf',
     'tools',
+    'acf-conf',
+    'blade-conf',
     'checks',
-    'cpt-portfolio',
 ) as $file){require_once("lib/func/$file.php");}
 ?>
