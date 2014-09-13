@@ -1,0 +1,225 @@
+{
+    "key": "group_541346f3dd5f7",
+    "title": "Metadata Settings",
+    "fields": [
+        {
+            "key": "field_541348ea72ebf",
+            "label": "",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "message": "<span class=\"rg--big\">Sharing Options<\/span>"
+        },
+        {
+            "key": "field_54134dfa8c88b",
+            "label": "About",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+        },
+        {
+            "key": "field_54134ccdd1e6d",
+            "label": "Title",
+            "name": "alt_title",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Setting this option overrides the default site title, found under <a href=\"options-general.php\">Settings \/ General<\/a>.",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54134cc2d1e6c",
+            "label": "Description",
+            "name": "site_description",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54134c7bd1e69",
+            "label": "Images",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+        },
+        {
+            "key": "field_541352454d638",
+            "label": "",
+            "name": "images",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "min": 1,
+            "max": 1,
+            "layout": "row",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_541352864d63a",
+                    "label": "Thumbnail",
+                    "name": "thumb",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "column_width": "",
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all"
+                }
+            ]
+        },
+        {
+            "key": "field_54134e35457b2",
+            "label": "Social Profiles",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+        },
+        {
+            "key": "field_54134b362528c",
+            "label": "",
+            "name": "social_profiles",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "min": 1,
+            "max": 1,
+            "layout": "row",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_541348ccde11c",
+                    "label": "Facebook",
+                    "name": "",
+                    "prefix": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0
+                },
+                {
+                    "key": "field_541347244af95",
+                    "label": "",
+                    "name": "facebook",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "<br\/>Find your username by visiting your Facebook profile or page and looking at the end of the URL.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "column_width": "",
+                    "default_value": "",
+                    "placeholder": "yourname",
+                    "prepend": "User:",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_541348bcde11b",
+                    "label": "Twitter",
+                    "name": "",
+                    "prefix": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0
+                },
+                {
+                    "key": "field_541347954af96",
+                    "label": "",
+                    "name": "twitter",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "<br\/>Find your handle by visiting your Twitter profile and looking at the end of the URL.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "default_value": "",
+                    "placeholder": "@your_handle",
+                    "prepend": "User:",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_541348b1de11a",
+                    "label": "Google+",
+                    "name": "",
+                    "prefix": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0
+                },
+                {
+                    "key": "field_541347bc4af97",
+                    "label": "",
+                    "name": "google",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "<br\/>Find your username or ID number by visiting your Google+ profile and looking at the end of the URL. (If you have a vanity username please include the <code>+<\/code>.)",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "column_width": "",
+                    "default_value": "",
+                    "placeholder": "username",
+                    "prepend": "User:",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "meta-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": ""
+}
