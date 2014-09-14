@@ -1,0 +1,45 @@
+
+
+.wrap > #message {
+    background: rgba(253,253,253,.95);
+    border-bottom: solid 1px rgba(0,0,0,.2);
+    border-radius: 2px;
+    border-right: solid 1px rgba(0,0,0,.2);
+    border-style: solid;
+    border-top: solid 0 rgba(0,0,0,.175);
+    box-shadow: 0 2px 15px -9px black;
+    box-sizing: border-box;
+    left: 50%;
+    padding: .5em .25em;
+    position: fixed;
+    top: 20px;
+    z-index: 99999999;
+}
+
+.wrap > #message a {
+    border-left: 1px solid #DDD;
+    box-sizing: content-box;
+    display: inline-block;
+    font-size: .6rem;
+    font-weight: bold;
+    margin: 0 0 0 .625rem;
+    padding: 10px 0 10px .625rem;
+    text-transform: uppercase;
+}
+
+.wrap > #message p {
+    display: block;
+    font-weight: 100;
+    line-height: 0;
+    padding: 2px .7rem 0;
+}
+
+.wrap h2 {
+    color: #AAA;
+    font-size: .75rem;
+    height: 50px;
+}
+
+.wrap h2 .add-new-h2 {
+    top: 0;
+}

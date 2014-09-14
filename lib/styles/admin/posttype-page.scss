@@ -1,0 +1,20 @@
+.post-type-page {
+	#pageparentdiv {
+		.hndle:before {
+		    content: 'Page Template';
+		}
+		.hndle > span {
+		    font-size: 0;
+		}
+		.inside {
+		    margin-top: 1em;
+		}
+		.inside select {
+		    width: 100%;
+		    box-sizing: border-box;
+		}
+		.inside > p {
+		    display: none;
+		}
+	}
+}

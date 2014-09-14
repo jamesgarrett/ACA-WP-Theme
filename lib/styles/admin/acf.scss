@@ -1,0 +1,106 @@
+
+@import "imports";
+
+#acf-col-side {
+    display: none;
+}
+#acf-group_5414693745fa1 {
+    .handlediv {
+        /* hide postbox handle */
+        display: none;
+    }
+    .hndle {
+        /* turn off postbox accordian */
+        pointer-events: none;
+    }
+}
+
+.acf-field .acf-label label {
+    font-size: .95rem;
+    font-weight: 300;
+    margin: 0 0 -7px;
+}
+
+.acf-file-uploader {
+    background: #FBFBFB;
+    box-shadow: 0 2px 15px -10px #000;
+}
+
+.acf-icon.dark {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: 0 0 0 transparent;
+    padding: 0;
+    [class*="acf-sprite"] {
+        @include filter(invert(1));
+        opacity: .75;
+        transition: opacity .25s ease-out;
+    }
+    &:hover [class*="acf-sprite"] {
+        @include filter(invert(0));
+        opacity: .8;
+        transition: opacity .25s ease-out;
+    }
+}
+.acf-image-uploader .view {
+    float: none;
+}
+.acf-repeater {
+    .acf-field .acf-label label {
+        margin: 0;
+    }
+    .active .acf-tab-button {
+        background: white;
+    }
+    td.acf-label, .acf-repeater td.acf-input {
+        vertical-align: middle;
+    }
+}
+.acf-soh .acf-soh-target {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    display: block;
+    height: 2em;
+    margin-top: -1em;
+    opacity: .25;
+    transition: opacity .25s ease-out;
+    visibility: visible;
+    &:hover {
+        opacity: 1;
+        transition: opacity .25s ease-out;
+    }
+    li {
+        padding: 0 .625em;
+        vertical-align: middle;
+        + li {
+            border-left: 1px solid #999;
+            transition: border-left .2s ease-out;
+        }
+    }
+    &:hover li + li {
+        border-left: 1px solid #DDD;
+        transition: border-left .1s ease-out;
+    }
+}
+
+.acf-tab-group {
+    .acf-tab-button {
+        &:focus {
+            border-color: #0099FF;
+            box-shadow: 0 0 0 transparent;
+            outline: 0 solid transparent;
+        }
+    }
+    &:not(.active) .acf-tab-button {
+        background: transparent;
+        border-color: transparent;
+        transition: all .125s ease-in;
+        &:hover {
+            background: #FDFDFD;
+            border-color: #DDD;
+            color: #444;
+            transition: all .125s ease-in;
+        }
+    }
+}

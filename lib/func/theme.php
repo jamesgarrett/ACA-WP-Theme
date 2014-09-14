@@ -1,12 +1,23 @@
 <? 
+/*
+|| Inject admin stylesheets
+*/
+add_action( 'admin_enqueue_scripts', 'register_admin_styles' );
+function register_admin_styles() {
+    jsl(get_stylesheet_directory_uri().'/admin/admin-theme.css');
+    wp_register_style( 'admin',get_stylesheet_directory_uri().'/admin/admin-theme.css');
+    wp_enqueue_style( 'admin' );
+    // ^ global
+}
+/*
+|| 'Gallery' postformat to 'Keynote'
+*/
 function rename_post_formats( $safe_text ) {
     if ( $safe_text == 'Gallery' )
-        return 'Slider';
+        return 'Keynote';
     return $safe_text;
 }
 add_filter( 'esc_html', 'rename_post_formats' );
-
-//rename Aside in posts list table
 function live_rename_formats() { 
     global $current_screen;
     if ( $current_screen->id == 'edit-post' ) : ?>
@@ -14,7 +25,7 @@ function live_rename_formats() {
         jQuery('document').ready(function() {
             jQuery("span.post-state-format").each(function() { 
                 if ( jQuery(this).text() == "Gallery" )
-                    jQuery(this).text("Slider");
+                    jQuery(this).text("Keynote");
                 });
         });      
         </script>
