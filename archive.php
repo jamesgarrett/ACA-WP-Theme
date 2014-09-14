@@ -12,6 +12,6 @@
 		
 	);?>
 
-	@include('views.loop-archive',$loop_archive_data)
+	@include('views.loop',$loop_archive_data)
 
 @endsection
