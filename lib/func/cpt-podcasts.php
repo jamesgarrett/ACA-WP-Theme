@@ -1,7 +1,7 @@
 <?
-// 
-// Register Podcast CPT
-// 
+/*
+|| REGISTER PODCAST TYPE
+*/
 function register_podcasts() {
 	$labels = array(
 		'name'                => _x( 'Episodes', 'Post Type General Name', 'episode' ),
@@ -39,32 +39,20 @@ function register_podcasts() {
 		'capability_type'     => 'post',
 	);
 	register_post_type( 'episode', $args );
-
 }
 add_action( 'init', 'register_podcasts', 0 );
 
-// 
-// Append ACF metadata to the_content if field
-// |
-// |—> http://localhost/dev/mulhern/?feed=rss&post_type=episode
-// |
+/*
+|| ADD EPISODE LINK
+||—> append link to the_content
+||   for feed readers
+*/
 function custom_fields_in_feed($content) {
-	// jsl();
 	if(is_feed()) {
-	// if(is_feed()) {
 		$post_id = get_the_ID();
 		$server_name =$_SERVER['SERVER_NAME'];
 		$podcast_url = get_field('episode')['url'];
-		$_url_split  = explode($server_name,$podcast_url);
-		// $output  = "<ul class='inline-list'>";
-		// jsl(array(
-		// 	'podcast_url'=>$podcast_url,
-		// 	'_url_split'=>$_url_split,
-		// ));
-		// $output .= "<a href='itpc://$server_name/$_url_split[1]'><li>Listen in iTunes</li></a>";
-		// $output .= "<a href=\"$podcast_url\"><li>Download Audio</li></a>";
-		// $output .= "</ul>";
-		$output  = "<a href=\"$podcast_url\"><li>Download Audio</li></a>";
+		$output  = "<a href=\"$podcast_url\">Episode</a>";
 		$content = $content.$output;
 	}
 	return $content;

@@ -1,8 +1,9 @@
 <?
-// 
-// REGISTER OPTIONS PAGES
-// 
+/*
+|| REGISTER OPTIONS PAGES
+*/
 if( function_exists('acf_add_options_page') ) { 
+	// Metadata options page
     $meta = array(
         'page_title' => 'Metadata Settings',
         'menu_title' => 'Meta',
