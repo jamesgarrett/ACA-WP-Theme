@@ -1,0 +1,100 @@
+{
+    "key": "group_5411fbfd1a84c",
+    "title": "Podcast Episode",
+    "fields": [
+        {
+            "key": "field_541200f41e2fa",
+            "label": "Episode",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+        },
+        {
+            "key": "field_54120056dbab8",
+            "label": "Audio",
+            "name": "episode",
+            "prefix": "",
+            "type": "file",
+            "instructions": "Upload episode audio as an MP3.",
+            "required": 0,
+            "conditional_logic": 0,
+            "return_format": "array",
+            "library": "all"
+        },
+        {
+            "key": "field_54120119315c2",
+            "label": "Description",
+            "name": "description",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "",
+            "placeholder": "Add a brief description of this episode...",
+            "maxlength": "",
+            "rows": 7,
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_541202a36d1ef",
+            "label": "Article",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+        },
+        {
+            "key": "field_541202b71610a",
+            "label": "",
+            "name": "content",
+            "prefix": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "basic",
+            "media_upload": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "episode"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ]
+}
