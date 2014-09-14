@@ -1,0 +1,33 @@
+{
+    "key": "group_5414c00128b6b",
+    "title": "Video Post",
+    "fields": [
+        {
+            "key": "field_5414c019ecda1",
+            "label": "Embed",
+            "name": "embed",
+            "prefix": "",
+            "type": "oembed",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "width": "",
+            "height": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "video"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": ""
+}

@@ -1,5 +1,6 @@
 <?
 foreach(array(
+	'theme',
 	'acf-conf',
 	'acf-opts',
 	'blade-conf',

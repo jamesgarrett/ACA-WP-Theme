@@ -22,7 +22,7 @@ function register_podcasts() {
 		'label'               => __( 'episode', 'episode' ),
 		'description'         => __( 'Manage podcast episodes.', 'episode' ),
 		'labels'              => $labels,
-		'supports'            => array( 'title', 'revisions', 'post-formats', ),
+		'supports'            => array('title', 'revisions'),
 		'taxonomies'          => array(),
 		'hierarchical'        => false,
 		'public'              => true,
@@ -46,23 +46,28 @@ add_action( 'init', 'register_podcasts', 0 );
 // 
 // Append ACF metadata to the_content if field
 // |
-// |—> localhost/dev/mulhern/?feed=rss&post_type=episode
-// 
+// |—> http://localhost/dev/mulhern/?feed=rss&post_type=episode
+// |
 function custom_fields_in_feed($content) {
-    // if(is_feed()) {
-        $post_id = get_the_ID();
-
-        $podcast_url = get_field('episode')['url'];
-        $_url_split  = explode('localhost',$podcast_url);
-
-        $output  = "<ul class='inline-list'>";
-        $output .= "<a href='itpc://localhost/$_url_split[1]'><li>Listen in iTunes</li></a>";
-        $output .= "<a href=\"$podcast_url\"><li>Download Audio</li></a>";
-    	$output .= "</ul>";
-        $content = $content.$output;
-    // }
-    return $content;
+	// jsl();
+	if(is_feed()) {
+	// if(is_feed()) {
+		$post_id = get_the_ID();
+		$server_name =$_SERVER['SERVER_NAME'];
+		$podcast_url = get_field('episode')['url'];
+		$_url_split  = explode($server_name,$podcast_url);
+		// $output  = "<ul class='inline-list'>";
+		// jsl(array(
+		// 	'podcast_url'=>$podcast_url,
+		// 	'_url_split'=>$_url_split,
+		// ));
+		// $output .= "<a href='itpc://$server_name/$_url_split[1]'><li>Listen in iTunes</li></a>";
+		// $output .= "<a href=\"$podcast_url\"><li>Download Audio</li></a>";
+		// $output .= "</ul>";
+		$output  = "<a href=\"$podcast_url\"><li>Download Audio</li></a>";
+		$content = $content.$output;
+	}
+	return $content;
 }
 add_filter('the_content','custom_fields_in_feed');
-
 ?>
