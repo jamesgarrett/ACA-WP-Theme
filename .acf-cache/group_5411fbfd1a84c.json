@@ -1,6 +1,6 @@
 {
     "key": "group_5411fbfd1a84c",
-    "title": "Podcast Episode",
+    "title": "Podcast - Episode",
     "fields": [
         {
             "key": "field_541200f41e2fa",
@@ -71,7 +71,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "episode"
+                "value": "post"
             }
         ]
     ],

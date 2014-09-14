@@ -1,6 +1,6 @@
 {
     "key": "group_5414693745fa1",
-    "title": "Metadata",
+    "title": "Metadata Single",
     "fields": [
         {
             "key": "field_54146a699b5d1",
@@ -72,7 +72,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "episode"
+                "value": "post"
             }
         ]
     ],
