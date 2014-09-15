@@ -1,5 +1,84 @@
-#wpwrap #wpadminbar {
-    border-bottom: 1px solid rgba(100,100,100,.3);
-    box-shadow: 0 4px 12px -10px black;
-    background: rgba(255,255,255,.95);
+#wpadminbar {
+	border-bottom: 1px solid rgba(100,100,100,.3);
+	box-shadow: 0 4px 12px -10px black;
+	background: rgba(255,255,255,.95);
+	#wp-toolbar {
+		.ab-top-menu > li {
+			&#wp-admin-bar-wp-logo {
+				display: none;
+			}
+			&#wp-admin-bar-site-name {
+				width: 34px;
+				max-width: 34px;
+				transition: all .2s;
+			}
+			&#wp-admin-bar-site-name:hover {
+				width: 160px;
+				max-width: 160px;
+				transition: all .2s;
+			}
+			&#wp-admin-bar-site-name > a {
+				display: block;
+				width: 19px;
+				font-style: italic;
+				color: transparent;
+			}
+			&#wp-admin-bar-site-name:hover > a {
+				width: auto;
+				color: #00ABD8;
+			}
+			&#wp-admin-bar-view * {
+				font-weight: bold;
+				letter-spacing: -.02em;
+				background: #F4FDFF;
+				color: #00ABD8;
+			}
+			&:only-child {
+				border-left: 1px solid #EAEAEA;
+			}
+			& + li {
+				border-right: 1px solid #EAEAEA;
+			}
+			& > a:hover {
+				background: #F6F6F6;
+			}
+			&.menupop.hover > a:active, &.menupop.hover > a:active *, & > a:active {
+				color: #919191;
+			}
+		}
+	}
+	#wp-admin-bar-my-account.with-avatar {
+		#wp-admin-bar-user-actions > li {
+			height: auto;
+			margin: 0 0 0 75px !important;
+			// border-left: 1px solid #EAEAEA;
+			&:hover {
+				background: #F6F6F6;
+			}
+			a > img.avatar {
+				left: -70px;
+				top: 5px;
+				border-radius: 100%;
+			}
+			a > span {
+				line-height: 26px;
+				height: 26px;
+			}
+		}
+	}
+	.ab-sub-wrapper {
+		border-top: 1px solid #DDD;
+		.ab-submenu {
+			padding: 0 !important;
+			> li {
+				padding: .2em 0;
+				+ li {
+					border-top: 1px solid #EAEAEA;
+				}
+				&:hover {
+					background: #F6F6F6;
+				}
+			}
+		}
+	}
 }

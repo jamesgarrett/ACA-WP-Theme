@@ -45,17 +45,6 @@
 .acf-image-uploader .view {
     float: none;
 }
-.acf-repeater {
-    .acf-field .acf-label label {
-        margin: 0;
-    }
-    .active .acf-tab-button {
-        background: white;
-    }
-    td.acf-label, .acf-repeater td.acf-input {
-        vertical-align: middle;
-    }
-}
 .acf-soh .acf-soh-target {
     position: absolute;
     right: 0;
@@ -92,15 +81,31 @@
             outline: 0 solid transparent;
         }
     }
-    &:not(.active) .acf-tab-button {
-        background: transparent;
-        border-color: transparent;
-        transition: all .125s ease-in;
-        &:hover {
-            background: #FDFDFD;
-            border-color: #DDD;
-            color: #444;
-            transition: all .125s ease-in;
+    > * {
+        .active .acf-tab-button {
+            background-color: transparent;
         }
+        :not(.active) .acf-tab-button {
+            background: transparent;
+            border-color: transparent;
+            transition: all .125s ease-in;
+            &:hover {
+                background: #DDD;
+                border-color: #DDD;
+                color: #444;
+                transition: all .125s ease-in;
+            }
+        }
+    }
+}
+.acf-repeater {
+    .acf-field .acf-label label {
+        margin: 0;
+    }
+    .active .acf-tab-button {
+        background: white;
+    }
+    td.acf-label, .acf-repeater td.acf-input {
+        vertical-align: middle;
     }
 }
