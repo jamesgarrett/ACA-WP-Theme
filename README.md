@@ -41,7 +41,7 @@ To sum it up, sections are useful ways to write manatainable templates because y
 By default, the ACA theme layouts define the following sections. Feel free to use these or add more.
 
 | Name            | Wrapper Tag     | Description                                                |
-|:---------------:|:---------------:|:----------------------------------------------------------:|
+|:----------------|:----------------|:-----------------------------------------------------------|
 | Notify          |`<section>      `| An area contextual information, updates, or notifications. |
 | Main            |`<main>         `| An area for all the main content of a document.            |
 | Side            |`^ <aside>      `| Space for a sidebar (within the main element.)             |
