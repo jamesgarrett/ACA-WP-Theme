@@ -8,7 +8,7 @@ For the most part this theme is built entirely on native Wordpress functionality
 
 ### WP Blade
 
-WP Blade is a port of [Laravel's](http://laravel.com/) templating engine wrapped up in a Wordpress plugin. Blade extends PHP’s default capabilities with useful templating concepts like extensible layouts and quicker syntax for basic control structures. It essentially supercharges Wordpress’ default [template functions])
+WP Blade is a port of [Laravel's](http://laravel.com/) templating engine wrapped up in a Wordpress plugin. Blade extends PHP’s default capabilities with useful templating concepts like extensible layouts and quicker syntax for basic control structures. It essentially supercharges Wordpress’ default [template functions](http://codex.wordpress.org/Template_Tags)
 
 - Layouts
 - Partials
