@@ -4,6 +4,122 @@
   font-size: 2.5rem;
   letter-spacing: -.0325rem; }
 
+/* line 11, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenu .wp-has-submenu.wp-has-current-submenu.wp-menu-open.menu-top .wp-submenu.wp-submenu-wrap {
+  /*
+  || OPEN SUBMENU WRAPPER CUR
+  */
+  border-bottom: 1px solid #d2d2d2; }
+/* line 17, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenu .wp-has-submenu .wp-submenu.wp-submenu-wrap {
+  /*
+  || OPEN SUBMENU WRAPPER 
+  */ }
+  /* line 21, ../lib/styles/admin/wp-adminmenu.scss */
+  .admin-color-light #adminmenu .wp-has-submenu .wp-submenu.wp-submenu-wrap .wp-submenu-head {
+    color: white;
+    font-weight: 900;
+    letter-spacing: -.0125em;
+    background: #d23b3b; }
+  /* line 27, ../lib/styles/admin/wp-adminmenu.scss */
+  .admin-color-light #adminmenu .wp-has-submenu .wp-submenu.wp-submenu-wrap:after {
+    display: none !important; }
+/* line 32, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenu a:hover,
+.admin-color-light #adminmenu li.menu-top:hover,
+.admin-color-light #adminmenu li.opensub > a.menu-top,
+.admin-color-light #adminmenu li > a.menu-top:focus {
+  /*
+  || TOP-LEVEL MENU ITEM HOVER/FOCUS 
+  */
+  color: #d23b3b;
+  background: #f3cece; }
+  /* line 41, ../lib/styles/admin/wp-adminmenu.scss */
+  .admin-color-light #adminmenu a:hover .wp-menu-image.dashicons-before:before,
+  .admin-color-light #adminmenu li.menu-top:hover .wp-menu-image.dashicons-before:before,
+  .admin-color-light #adminmenu li.opensub > a.menu-top .wp-menu-image.dashicons-before:before,
+  .admin-color-light #adminmenu li > a.menu-top:focus .wp-menu-image.dashicons-before:before {
+    /*
+    || TOP-LEVEL MENU ICON HOVER/FOCUS 
+    */
+    color: #d23b3b; }
+/* line 48, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenu li.current a.menu-top,
+.admin-color-light #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head,
+.admin-color-light #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded .admin-color-light #adminmenu li.current.menu-top {
+  /*
+  || TOP-LEVEL MENU ITEM CURRENT 
+  */
+  background: #d23b3b;
+  color: white; }
+  /* line 57, ../lib/styles/admin/wp-adminmenu.scss */
+  .admin-color-light #adminmenu li.current a.menu-top .dashicons-before:before,
+  .admin-color-light #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head .dashicons-before:before,
+  .admin-color-light #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu .dashicons-before:before, .folded .admin-color-light #adminmenu li.current.menu-top .dashicons-before:before {
+    /*
+    || TOP-LEVEL MENU ICON CURRENT 
+    */
+    color: white !important; }
+/* line 65, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenu .wp-has-current-submenu .wp-submenu a:focus,
+.admin-color-light #adminmenu .wp-has-current-submenu .wp-submenu a:hover,
+.admin-color-light #adminmenu .wp-has-current-submenu.opensub .wp-submenu a:focus,
+.admin-color-light #adminmenu .wp-has-current-submenu.opensub .wp-submenu a:hover,
+.admin-color-light #adminmenu .wp-submenu a:focus,
+.admin-color-light #adminmenu .wp-submenu a:hover,
+.admin-color-light #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a:focus,
+.admin-color-light #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a:hover, .folded .admin-color-light #adminmenu .wp-has-current-submenu .wp-submenu a:focus, .folded .admin-color-light #adminmenu .wp-has-current-submenu .wp-submenu a:hover {
+  /*
+  || OPEN SUBMENU HOVER/FOCUS ITEM 
+  */
+  background: #f8e1e1;
+  color: #d23b3b; }
+/* line 81, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a,
+.admin-color-light #adminmenu .wp-submenu li.current a,
+.admin-color-light #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a {
+  /*
+  || OPEN SUBMENU CURRENT ITEM 
+  */
+  color: #d23b3b !important;
+  font-weight: 900;
+  letter-spacing: -.0125em; }
+/* line 91, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenu a.wp-has-current-submenu:after,
+.admin-color-light #adminmenu > li.current > a.current:after,
+.admin-color-light #adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after {
+  /*
+  || HIDE TRITIP ON OPEN CUR SUBMENU
+  */
+  display: none !important; }
+/* line 99, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenu #collapse-menu {
+  /*
+  || FADE MEN COLLAPSE ICON
+  */
+  opacity: .325; }
+/* line 106, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light #adminmenuback {
+  /*
+  || ADD BORDER TO OPEN MENU
+  */
+  border-right: 1px solid #d2d2d2; }
+/* line 112, ../lib/styles/admin/wp-adminmenu.scss */
+.admin-color-light.folded {
+  /*
+  || COLLAPSED MEN STYLES
+  */ }
+  /* line 116, ../lib/styles/admin/wp-adminmenu.scss */
+  .admin-color-light.folded #adminmenuback, .admin-color-light.folded #adminmenuwrap, .admin-color-light.folded #adminmenu {
+    /*
+    || MAIN MENU WRAP ELEMS
+    */
+    background: whitesmoke; }
+  /* line 123, ../lib/styles/admin/wp-adminmenu.scss */
+  .admin-color-light.folded #adminmenuwrap #adminmenu .wp-menu-open .wp-submenu.wp-submenu-wrap {
+    border-bottom: 0 solid transparent;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2) !important; }
+
 /* line 1, ../lib/styles/admin/wp-adminbar.scss */
 #wpadminbar {
   border-bottom: 1px solid rgba(100, 100, 100, 0.3);
