@@ -11,6 +11,7 @@
 				"app.min.*",
 				".git*",
 				"README*",
+				"LICENSE",
 				"*.rb"
 			],
 			"folder_exclude_patterns":
