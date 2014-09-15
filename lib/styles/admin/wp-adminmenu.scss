@@ -1,0 +1,129 @@
+.admin-color-light {
+	$bgc: #F5F5F5;
+	$pop: #D23B3B;
+	$alt: mix(#D23B3B,white,25%);
+	$lte: mix(#D23B3B,white,15%);
+	$txt: white;
+	$bdr: #D2D2D2;
+	#adminmenu {
+
+		.wp-has-submenu {
+			&.wp-has-current-submenu.wp-menu-open.menu-top .wp-submenu.wp-submenu-wrap {
+				/*
+				|| OPEN SUBMENU WRAPPER CUR
+				*/
+				border-bottom: 1px solid $bdr;
+			}
+			.wp-submenu.wp-submenu-wrap {
+				/*
+				|| OPEN SUBMENU WRAPPER 
+				*/
+				.wp-submenu-head {
+					color: $txt;
+					font-weight: 900;
+					letter-spacing: -.0125em;
+					background: $pop;
+				}
+				&:after {
+					display: none !important;
+				}
+			}
+		}
+		a:hover              ,
+		li.menu-top:hover    ,
+		li.opensub>a.menu-top,
+		li>a.menu-top:focus  {
+			/*
+			|| TOP-LEVEL MENU ITEM HOVER/FOCUS 
+			*/
+			color: $pop;
+			background: $alt;
+			.wp-menu-image.dashicons-before:before {
+				/*
+				|| TOP-LEVEL MENU ICON HOVER/FOCUS 
+				*/
+				color: $pop;
+			}
+		}
+				  li.current                a.menu-top                   ,                   
+				  li.wp-has-current-submenu  .wp-submenu .wp-submenu-head,
+				  li.wp-has-current-submenu a.wp-has-current-submenu     ,     
+		.folded & li.current.menu-top                                    {
+			/*
+			|| TOP-LEVEL MENU ITEM CURRENT 
+			*/
+			background: $pop;
+			color: $txt;
+			.dashicons-before:before {
+				/*
+				|| TOP-LEVEL MENU ICON CURRENT 
+				*/
+				color: $txt !important;
+			}
+		}
+
+				   .wp-has-current-submenu         .wp-submenu a:focus,
+				   .wp-has-current-submenu         .wp-submenu a:hover,
+				   .wp-has-current-submenu.opensub .wp-submenu a:focus,
+				   .wp-has-current-submenu.opensub .wp-submenu a:hover,
+												   .wp-submenu a:focus,
+												   .wp-submenu a:hover,
+				  a.wp-has-current-submenu:focus + .wp-submenu a:focus,
+				  a.wp-has-current-submenu:focus + .wp-submenu a:hover,
+		.folded &  .wp-has-current-submenu         .wp-submenu a:focus,
+		.folded &  .wp-has-current-submenu         .wp-submenu a:hover{
+			/*
+			|| OPEN SUBMENU HOVER/FOCUS ITEM 
+			*/
+			background: $lte;
+			color: $pop;
+		}
+		.wp-has-current-submenu.opensub  .wp-submenu li.current a,
+										 .wp-submenu li.current a,
+		a.wp-has-current-submenu:focus + .wp-submenu li.current a{
+			/*
+			|| OPEN SUBMENU CURRENT ITEM 
+			*/
+			color: $pop !important;
+			font-weight: 900;
+			letter-spacing: -.0125em;
+		}
+		               a.wp-has-current-submenu:after          ,
+		> li.current > a.current:after                         ,
+		  li.wp-has-submenu.wp-not-current-submenu:hover:after {
+			/*
+			|| HIDE TRITIP ON OPEN CUR SUBMENU
+			*/
+			display: none !important;
+		}
+		#collapse-menu {
+			/*
+			|| FADE MEN COLLAPSE ICON
+			*/
+			opacity: .325;
+		}
+	}
+	#adminmenuback {
+		/*
+		|| ADD BORDER TO OPEN MENU
+		*/
+		border-right: 1px solid $bdr;
+	}
+	&.folded {
+		/*
+		|| COLLAPSED MEN STYLES
+		*/
+		#adminmenuback, #adminmenuwrap, #adminmenu {
+			/*
+			|| MAIN MENU WRAP ELEMS
+			*/
+			background: $bgc;
+		}
+		#adminmenuwrap #adminmenu {
+			.wp-menu-open .wp-submenu.wp-submenu-wrap {
+				border-bottom: 0 solid transparent;
+				box-shadow: 0 3px 5px -1px rgba(black,0.2) !important;
+			}
+		}
+	}
+}

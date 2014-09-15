@@ -1,0 +1,77 @@
+/* line 1, ../lib/styles/admin/wp-adminbar.scss */
+#wpadminbar {
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+  box-shadow: 0 4px 12px -10px black;
+  background: rgba(255, 255, 255, 0.95); }
+  /* line 7, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li#wp-admin-bar-wp-logo {
+    display: none; }
+  /* line 10, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li#wp-admin-bar-site-name {
+    width: 34px;
+    max-width: 34px;
+    transition: all .2s; }
+  /* line 15, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li#wp-admin-bar-site-name:hover {
+    width: 160px;
+    max-width: 160px;
+    transition: all .2s; }
+  /* line 20, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li#wp-admin-bar-site-name > a {
+    display: block;
+    width: 19px;
+    font-style: italic;
+    color: transparent; }
+  /* line 26, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li#wp-admin-bar-site-name:hover > a {
+    width: auto;
+    color: #00ABD8; }
+  /* line 30, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li#wp-admin-bar-view * {
+    font-weight: bold;
+    letter-spacing: -.02em;
+    background: #F4FDFF;
+    color: #00ABD8; }
+  /* line 36, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li:only-child {
+    border-left: 1px solid #EAEAEA; }
+  /* line 39, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li + li {
+    border-right: 1px solid #EAEAEA; }
+  /* line 42, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li > a:hover {
+    background: #F6F6F6; }
+  /* line 45, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-toolbar .ab-top-menu > li.menupop.hover > a:active, #wpadminbar #wp-toolbar .ab-top-menu > li.menupop.hover > a:active *, #wpadminbar #wp-toolbar .ab-top-menu > li > a:active {
+    color: #919191; }
+  /* line 51, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li {
+    height: auto;
+    margin: 0 0 0 75px !important; }
+    /* line 55, ../lib/styles/admin/wp-adminbar.scss */
+    #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li:hover {
+      background: #F6F6F6; }
+    /* line 58, ../lib/styles/admin/wp-adminbar.scss */
+    #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li a > img.avatar {
+      left: -70px;
+      top: 5px;
+      border-radius: 100%; }
+    /* line 63, ../lib/styles/admin/wp-adminbar.scss */
+    #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li a > span {
+      line-height: 26px;
+      height: 26px; }
+  /* line 69, ../lib/styles/admin/wp-adminbar.scss */
+  #wpadminbar .ab-sub-wrapper {
+    border-top: 1px solid #DDD; }
+    /* line 71, ../lib/styles/admin/wp-adminbar.scss */
+    #wpadminbar .ab-sub-wrapper .ab-submenu {
+      padding: 0 !important; }
+      /* line 73, ../lib/styles/admin/wp-adminbar.scss */
+      #wpadminbar .ab-sub-wrapper .ab-submenu > li {
+        padding: .2em 0; }
+        /* line 75, ../lib/styles/admin/wp-adminbar.scss */
+        #wpadminbar .ab-sub-wrapper .ab-submenu > li + li {
+          border-top: 1px solid #EAEAEA; }
+        /* line 78, ../lib/styles/admin/wp-adminbar.scss */
+        #wpadminbar .ab-sub-wrapper .ab-submenu > li:hover {
+          background: #F6F6F6; }

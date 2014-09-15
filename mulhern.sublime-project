@@ -16,19 +16,24 @@
 			"folder_exclude_patterns":
 			[
 				".*",
-				"lib/plugins/*/*",
 				"lib",
 				"views",
-				"assets",
+				"admin",
 				"saved",
+				"assets",
 				"layouts",
-				"partials"
+				"partials",
+				"lib/plugins/*/*"
 			],
 			"follow_symlinks": true,
 			"name": "Theme Root",
 			"path": "."
 		},
 		{
+			"folder_exclude_patterns":
+			[
+				"admin"
+			],
 			"follow_symlinks": true,
 			"name": "Styles",
 			"path": "lib/styles"
@@ -59,17 +64,22 @@
 		},
 		{
 			"follow_symlinks": true,
-			"name": "Assets",
-			"path": "assets"
-		},
-		{
-			"follow_symlinks": true,
 			"name": "Functions",
 			"path": "lib/func"
 		},
 		{
 			"follow_symlinks": true,
-			"name": "Saved Files",
+			"name": "Admin",
+			"path": "lib/styles/admin"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Assets",
+			"path": "assets"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Saved",
 			"path": "saved"
 		}
 	]
