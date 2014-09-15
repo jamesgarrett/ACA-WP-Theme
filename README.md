@@ -44,7 +44,7 @@ By default, the ACA theme layouts define the following sections. Feel free to us
 |:---------|:------------|:-----------------------------------------------------------|
 | Notify   | `<section>` | An area contextual information, updates, or notifications. |
 | Main     | `<main>`    | An area for all the main content of a document.            |
-| Side     | ^ `<aside>` | Space for a sidebar (within the main element.)             |
+| Side     | `<aside>`   | Space for a sidebar (within the main element.)             |
 | Breakout | `<section>` | Bottom section before the footer for banners, ads, etc.    |
 
 If you decide to modify the default names please push these changes in a **SEPARATE, WELL COMMENTED COMMITT** so that they won't be mixed in to the master. Also, rememeber to change any uses or references elsewhere in the theme or else things'll start breaking!
