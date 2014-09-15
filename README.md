@@ -19,7 +19,7 @@ WP Blade is a port of [Laravel's](http://laravel.com/) templating engine wrapped
 
 #### Layouts
 
-As you’d expect layouts live in the [`layouts`](./tree/master/layouts)  directory.
+As you’d expect layouts live in the [`layouts`](https://github.com/rafegoldberg/ACA-WP-Theme/tree/master/layouts)  directory.
 
 ##### Default Sections
 - Notify
