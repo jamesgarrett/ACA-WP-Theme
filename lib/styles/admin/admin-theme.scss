@@ -1,13 +1,15 @@
+@import 'imports';
+
 .rg--big {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5rem;
     letter-spacing: -.0325rem;
 }
+
 @import 'wp-adminmenu' ;
 @import 'wp-adminbar'  ;
 @import 'single-editor';
 @import 'mail-sub-plug';
-@import 'wysiwyg-mce'  ;
 @import 'acf'          ;
 @import 'wrap-styles'  ;
 @import 'posttype-page';

@@ -1,5 +1,5 @@
 @layout('layouts.master')
 
 @section('main')
-	<h2>{{the_title()}}</h2>
+	{{jsl(get_fields($post->id))}}
 @endsection

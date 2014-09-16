@@ -1,3 +1,10 @@
+/* line 2, ../lib/styles/util/_octicons.scss */
+.octicon.octicon-before:before {
+  margin-right: .325em; }
+/* line 5, ../lib/styles/util/_octicons.scss */
+.octicon.octicon-after:after {
+  margin-left: .325em; }
+
 /* line 4, ../lib/styles/admin/acf.scss */
 #acf-col-side {
   display: none; }
@@ -57,48 +64,60 @@
   transition: opacity .25s ease-out;
   visibility: visible; }
   /* line 58, ../lib/styles/admin/acf.scss */
+  .acf-soh .acf-soh-target.acf-icon {
+    top: 50% !important; }
+  /* line 61, ../lib/styles/admin/acf.scss */
   .acf-soh .acf-soh-target:hover {
     opacity: 1;
     transition: opacity .25s ease-out; }
-  /* line 62, ../lib/styles/admin/acf.scss */
+  /* line 65, ../lib/styles/admin/acf.scss */
   .acf-soh .acf-soh-target li {
     padding: 0 .625em;
     vertical-align: middle; }
-    /* line 65, ../lib/styles/admin/acf.scss */
+    /* line 68, ../lib/styles/admin/acf.scss */
     .acf-soh .acf-soh-target li + li {
       border-left: 1px solid #999;
       transition: border-left .2s ease-out; }
-  /* line 70, ../lib/styles/admin/acf.scss */
+  /* line 73, ../lib/styles/admin/acf.scss */
   .acf-soh .acf-soh-target:hover li + li {
     border-left: 1px solid #DDD;
     transition: border-left .1s ease-out; }
 
-/* line 78, ../lib/styles/admin/acf.scss */
+/* line 81, ../lib/styles/admin/acf.scss */
 .acf-tab-group .acf-tab-button:focus {
   border-color: #0099FF;
   box-shadow: 0 0 0 transparent;
   outline: 0 solid transparent; }
-/* line 85, ../lib/styles/admin/acf.scss */
+/* line 88, ../lib/styles/admin/acf.scss */
 .acf-tab-group > * .active .acf-tab-button {
   background-color: transparent; }
-/* line 88, ../lib/styles/admin/acf.scss */
+/* line 91, ../lib/styles/admin/acf.scss */
 .acf-tab-group > * :not(.active) .acf-tab-button {
   background: transparent;
   border-color: transparent;
   transition: all .125s ease-in; }
-  /* line 92, ../lib/styles/admin/acf.scss */
+  /* line 95, ../lib/styles/admin/acf.scss */
   .acf-tab-group > * :not(.active) .acf-tab-button:hover {
     background: #DDD;
     border-color: #DDD;
     color: #444;
     transition: all .125s ease-in; }
 
-/* line 102, ../lib/styles/admin/acf.scss */
+/* line 106, ../lib/styles/admin/acf.scss */
+.acf-flexible-content .acf-field .acf-label label,
 .acf-repeater .acf-field .acf-label label {
   margin: 0; }
-/* line 105, ../lib/styles/admin/acf.scss */
+/* line 109, ../lib/styles/admin/acf.scss */
+.acf-flexible-content .acf-tab-button,
+.acf-repeater .acf-tab-button {
+  background-color: transparent;
+  border-color: #E2E2E2; }
+/* line 113, ../lib/styles/admin/acf.scss */
+.acf-flexible-content .active .acf-tab-button,
 .acf-repeater .active .acf-tab-button {
   background: white; }
-/* line 108, ../lib/styles/admin/acf.scss */
-.acf-repeater td.acf-label, .acf-repeater .acf-repeater td.acf-input {
+/* line 116, ../lib/styles/admin/acf.scss */
+.acf-flexible-content td.acf-label, .acf-flexible-content .acf-repeater td.acf-input,
+.acf-repeater td.acf-label,
+.acf-repeater .acf-repeater td.acf-input {
   vertical-align: middle; }

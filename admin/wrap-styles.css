@@ -1,0 +1,38 @@
+/* line 3, ../lib/styles/admin/wrap-styles.scss */
+.wrap > #message {
+  background: rgba(253, 253, 253, 0.95);
+  box-shadow: 0 2px 15px -9px black;
+  box-sizing: border-box;
+  left: 50%;
+  padding: .5em .25em;
+  position: fixed;
+  top: 20px;
+  z-index: 99999999; }
+
+/* line 19, ../lib/styles/admin/wrap-styles.scss */
+.wrap > #message a {
+  border-left: 1px solid #DDD;
+  box-sizing: content-box;
+  display: inline-block;
+  font-size: .6rem;
+  font-weight: bold;
+  margin: 0 0 0 .625rem;
+  padding: 10px 0 10px .625rem;
+  text-transform: uppercase; }
+
+/* line 30, ../lib/styles/admin/wrap-styles.scss */
+.wrap > #message p {
+  display: block;
+  font-weight: 100;
+  line-height: 0;
+  padding: 2px .7rem 0; }
+
+/* line 37, ../lib/styles/admin/wrap-styles.scss */
+.wrap h2 {
+  color: #AAA;
+  font-size: .75rem;
+  height: 50px; }
+
+/* line 43, ../lib/styles/admin/wrap-styles.scss */
+.wrap h2 .add-new-h2 {
+  top: 0; }

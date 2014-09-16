@@ -3,6 +3,17 @@
     "title": "Metadata \u2013 Single",
     "fields": [
         {
+            "key": "field_54175f2dfce52",
+            "label": "",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "message": "<h2 style=\"text-align:center;line-height:1;height:auto;margin:0;\"><strong>Optimize for Search + Social<\/strong><\/h4>"
+        },
+        {
             "key": "field_54146a699b5d1",
             "label": "Excerpt",
             "name": "",
@@ -15,7 +26,7 @@
         {
             "key": "field_541469b767d53",
             "label": "",
-            "name": "excerpt",
+            "name": "meta_excerpt_override",
             "prefix": "",
             "type": "textarea",
             "instructions": "Add a brief description of this page. This will be used in search results and social feeds to describe this page.",
@@ -42,7 +53,7 @@
         {
             "key": "field_54146a6f9b5d2",
             "label": "",
-            "name": "large_image",
+            "name": "meta_large_image_override",
             "prefix": "",
             "type": "image",
             "instructions": "Upload an image, at least 250x150 pixel",
@@ -78,7 +89,7 @@
     ],
     "menu_order": 0,
     "position": "side",
-    "style": "default",
+    "style": "seamless",
     "label_placement": "top",
     "instruction_placement": "field",
     "hide_on_screen": ""

@@ -1,24 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	@include('partials.meta-head')
-</head>
-<body>
-	<div id="app">
-		<header>@include('partials.header')</header>
-		@yield('pre')
-		<main id="content" class="content" role="content">
-			<article>
-				@yield('main')
-			</article>
-			<aside>
-				@yield('side')
-			</aside>
-		</main>
-		@yield('post')
-		<footer>@include('partials.footer')</footer>
-	</div>
-	@include('partials.meta-foot')
-</body>
-</html>
+<!--
+ ||| Master
+ -->
 
+@include('partials.pre')
+
+<header id="header" role="banner">
+	@include("partials.head")
+</header>
+
+<div id="app">
+	<section>
+		@yield('top')
+	</section>
+	<main>
+		@yield('main')
+		<aside> @yield('side') </aside>
+	</main>
+	<section>
+		@yield('bottom')
+	</section>
+</div>
+
+<footer id="footer">
+	@include('partials.foot')
+</footer>
+
+@include('partials.post')

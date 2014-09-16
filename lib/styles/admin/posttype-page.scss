@@ -1,20 +1,46 @@
+
+@import 'imports';
+
 .post-type-page {
 	#pageparentdiv {
-		.hndle:before {
-		    content: 'Page Template';
-		}
-		.hndle > span {
-		    font-size: 0;
+		background: transparent;
+		border-style: dotted;
+		border-color: #CCC;
+		border-width: 1px 0 0;
+		border-width: 0 0;
+		box-shadow: 0 0 0 transparent;
+		padding: 0;
+		*:not(select) {
+			border-color: transparent;
+			padding: 0;
 		}
 		.inside {
-		    margin-top: 1em;
+			margin-top: .25em !important;
+			select {
+			    display: block;
+			    width: 99.5%;
+			    margin: 0 auto;
+			    @include box-sizing(border-box);
+			    height: 2.5rem;
+			}
 		}
-		.inside select {
-		    width: 100%;
-		    box-sizing: border-box;
+		.hndle {
+			padding: .575em .575em .325em;
+			padding: 0 .575em .325em;
+			&:before {
+			    content: 'Template:';
+			}
+			> span {
+			    font-size: 0;
+			}
 		}
+		#parent_id,
+		.handlediv,
 		.inside > p {
 		    display: none;
+		}
+		.hndle, .handlediv {
+			pointer-events: none !important;
 		}
 	}
 }

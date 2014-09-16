@@ -55,6 +55,9 @@
     opacity: .25;
     transition: opacity .25s ease-out;
     visibility: visible;
+    &.acf-icon {
+        top: 50% !important;
+    }
     &:hover {
         opacity: 1;
         transition: opacity .25s ease-out;
@@ -98,9 +101,14 @@
         }
     }
 }
+.acf-flexible-content,
 .acf-repeater {
     .acf-field .acf-label label {
         margin: 0;
+    }
+    .acf-tab-button {
+        background-color: transparent;
+        border-color: #E2E2E2;
     }
     .active .acf-tab-button {
         background: white;

@@ -1,17 +1,10 @@
 @layout('layouts.archive')
 
-{{--
-{{-- Template Name: Archive
-{{--}}
-
 @section('main')
-
-	<? $loop_archive_data = array(
-
-		'query'=>get_field('archive_query')
-		
+	<h2>{{the_title()}}</h2>
+	<code>Archive</code>
+	<?$arch_query = array(
+		'query' => get_field('archive_query')
 	);?>
-
-	@include('views.loop',$loop_archive_data)
-
+	@include('views.loop',$arch_query)
 @endsection

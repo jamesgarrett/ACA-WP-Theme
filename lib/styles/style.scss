@@ -30,7 +30,8 @@
 //—————————————————————————————————————————
 // 2 | TYPEFACES
 //
-// @import url(http://fonts.googleapis.com/css?family=Oswald:300,700);
+@import url(./bower_components/octicons/octicons/octicons.css);
+@import url(./assets/fonts/Super-Clarendon/font.css);
 
 // ————————————————————————————————————————
 // 3 | THEME
@@ -48,19 +49,8 @@
 @import "base/*";
 
 //————————————————————————————————————————
-// 5 | MODULES
+// 6 | MODULES
 //
 @import "modules/*";
 
 // body { @include show-mq(); }
-
-ul .edit-button {
-	position:fixed;
-	bottom: 35px;
-	right: 1.5%;
-	color:dodgerblue;
-	font-size:small;
-	outline:1px solid dodgerblue;
-	position: fixed;
-}
-

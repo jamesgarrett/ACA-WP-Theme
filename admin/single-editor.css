@@ -1,0 +1,85 @@
+@media screen and (min-width: 1470px) {
+  /* line 1, ../lib/styles/admin/single-editor.scss */
+  #post-body.columns-2 {
+    width: 100%;
+    position: relative;
+    display: block; }
+    /* line 7, ../lib/styles/admin/single-editor.scss */
+    #post-body.columns-2 #postbox-container-2,
+    #post-body.columns-2 #post-body-content {
+      max-width: 65rem;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      left: -150px;
+      position: relative; }
+    /* line 16, ../lib/styles/admin/single-editor.scss */
+    #post-body.columns-2 #postbox-container-1 {
+      position: absolute;
+      right: 1%;
+      display: block;
+      overflow: hidden;
+      margin-right: 0;
+      float: none !important; }
+      /* line 23, ../lib/styles/admin/single-editor.scss */
+      #post-body.columns-2 #postbox-container-1 > #side-sortables {
+        position: fixed;
+        top: 0;
+        border-left: 1px solid transparent;
+        box-shadow: -25px 0 125px -75px transparent;
+        box-sizing: border-box;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding: 6.125% 0 0 1%;
+        transition: all .12s ease-in-out;
+        width: 300px;
+        z-index: 1; }
+        /* line 36, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables > * {
+          -webkit-filter: saturate(1.125);
+          opacity: .825;
+          pointer-events: none;
+          transition: all .12s ease-in-out; }
+        /* line 42, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables:hover {
+          border-left: 1px solid transparent;
+          box-shadow: -25px 0 125px -65px rgba(0, 0, 0, 0.5);
+          transition: all .12s ease-in-out; }
+          /* line 46, ../lib/styles/admin/single-editor.scss */
+          #post-body.columns-2 #postbox-container-1 > #side-sortables:hover * {
+            -webkit-filter: saturate(1);
+            opacity: 1;
+            pointer-events: auto;
+            transition: all .12s ease-in-out; }
+        /* line 53, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables:not(:hover) {
+          box-shadow: -25px 0 125px -165px transparent; }
+          /* line 56, ../lib/styles/admin/single-editor.scss */
+          #post-body.columns-2 #postbox-container-1 > #side-sortables:not(:hover) * {
+            box-shadow: 0 0 0 transparent;
+            transition: all .12s ease-in-out; }
+          /* line 60, ../lib/styles/admin/single-editor.scss */
+          #post-body.columns-2 #postbox-container-1 > #side-sortables:not(:hover) .submitbox a {
+            color: black; } }
+/* line 68, ../lib/styles/admin/single-editor.scss */
+#post-body.columns-2 #titlediv #title {
+  background: transparent;
+  border-radius: 4px;
+  box-shadow: 0 0 0 transparent;
+  font-size: 2.5rem;
+  font-weight: 100;
+  letter-spacing: -.0325rem;
+  transition: all .125s ease-in; }
+  /* line 76, ../lib/styles/admin/single-editor.scss */
+  #post-body.columns-2 #titlediv #title:focus {
+    background: #F9F9F9;
+    border-color: #5B9DD9;
+    box-shadow: 0 0 0 transparent;
+    transition: all .125s ease-in; }
+  /* line 82, ../lib/styles/admin/single-editor.scss */
+  #post-body.columns-2 #titlediv #title:focus, #post-body.columns-2 #titlediv #title:hover {
+    background: #FDFDFD;
+    border-color: #D3D3D3;
+    box-shadow: 0 2px 15px -10px #333;
+    transition: all .125s ease-in; }

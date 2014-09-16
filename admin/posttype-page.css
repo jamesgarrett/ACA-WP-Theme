@@ -1,0 +1,50 @@
+/* line 2, ../lib/styles/util/_octicons.scss */
+.octicon.octicon-before:before {
+  margin-right: .325em; }
+/* line 5, ../lib/styles/util/_octicons.scss */
+.octicon.octicon-after:after {
+  margin-left: .325em; }
+
+/* line 5, ../lib/styles/admin/posttype-page.scss */
+.post-type-page #pageparentdiv {
+  background: transparent;
+  border-style: dotted;
+  border-color: #CCC;
+  border-width: 1px 0 0;
+  border-width: 0 0;
+  box-shadow: 0 0 0 transparent;
+  padding: 0; }
+  /* line 13, ../lib/styles/admin/posttype-page.scss */
+  .post-type-page #pageparentdiv *:not(select) {
+    border-color: transparent;
+    padding: 0; }
+  /* line 17, ../lib/styles/admin/posttype-page.scss */
+  .post-type-page #pageparentdiv .inside {
+    margin-top: .25em !important; }
+    /* line 19, ../lib/styles/admin/posttype-page.scss */
+    .post-type-page #pageparentdiv .inside select {
+      display: block;
+      width: 99.5%;
+      margin: 0 auto;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      height: 2.5rem; }
+  /* line 27, ../lib/styles/admin/posttype-page.scss */
+  .post-type-page #pageparentdiv .hndle {
+    padding: .575em .575em .325em;
+    padding: 0 .575em .325em; }
+    /* line 30, ../lib/styles/admin/posttype-page.scss */
+    .post-type-page #pageparentdiv .hndle:before {
+      content: 'Template:'; }
+    /* line 33, ../lib/styles/admin/posttype-page.scss */
+    .post-type-page #pageparentdiv .hndle > span {
+      font-size: 0; }
+  /* line 37, ../lib/styles/admin/posttype-page.scss */
+  .post-type-page #pageparentdiv #parent_id,
+  .post-type-page #pageparentdiv .handlediv,
+  .post-type-page #pageparentdiv .inside > p {
+    display: none; }
+  /* line 42, ../lib/styles/admin/posttype-page.scss */
+  .post-type-page #pageparentdiv .hndle, .post-type-page #pageparentdiv .handlediv {
+    pointer-events: none !important; }

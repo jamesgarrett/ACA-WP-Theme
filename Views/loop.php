@@ -9,5 +9,4 @@
 			<h2 class="txt-warn">No Posts Found!</h2>
 		</section>
 	@wpend
-
 @endif

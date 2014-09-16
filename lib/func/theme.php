@@ -2,11 +2,16 @@
 /*
 || Inject admin stylesheets
 */
-add_action( 'admin_enqueue_scripts', 'register_admin_styles' );
-function register_admin_styles() {
-    jsl(get_stylesheet_directory_uri().'/admin/admin-theme.css');
+add_action( 'admin_enqueue_scripts', 'register_custom_admin_styles' );
+function register_custom_admin_styles() {
     wp_register_style( 'admin',get_stylesheet_directory_uri().'/admin/admin-theme.css');
     wp_enqueue_style( 'admin' );
+    // ^ global
+}
+add_action( 'admin_enqueue_scripts', 'register_admin_component_styles' );
+function register_admin_component_styles() {
+    wp_register_style( 'octicons',get_stylesheet_directory_uri().'/bower_components/octicons/octicons/octicons.css');
+    wp_enqueue_style( 'octicons' );
     // ^ global
 }
 /*

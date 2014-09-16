@@ -1,0 +1,9 @@
+.octicon {
+	&.octicon-before:before {
+		margin-right: .325em;
+	}
+	&.octicon-after:after {
+		margin-left: .325em;
+	}
+
+}

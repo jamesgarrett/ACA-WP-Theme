@@ -1,0 +1,9 @@
+.brand {
+	font-family: aktiv-grotesk-std, Arial Black, Arial, Helvetica sans-serif;
+	font-weight: 900;
+	text-rendering: optimizeLegibility;
+	letter-spacing: -.025em;
+	&:first-letter {
+		border-top: 6px solid #FF3B00;
+	}
+}

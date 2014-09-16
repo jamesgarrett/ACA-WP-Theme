@@ -6,6 +6,8 @@ Author:       ACA Team
 Author URI:   http://architects.agency
 Version:      0.0
 */
+@import url(./bower_components/octicons/octicons/octicons.css);
+@import url(./assets/fonts/Super-Clarendon/font.css);
 /* line 5, ../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -74,57 +76,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .clfx:after {
     clear: both; }
 
-/* line 6, lib/styles/util/_contect-colors.scss */
+/* line 6, lib/styles/util/_context-colors.scss */
 .txt-pmy {
   display: inline;
-  color: dodgerblue; }
+  color: #ff0065; }
 
-/* line 6, lib/styles/util/_contect-colors.scss */
+/* line 6, lib/styles/util/_context-colors.scss */
 .txt-scs {
   display: inline;
   color: #40b485; }
 
-/* line 6, lib/styles/util/_contect-colors.scss */
+/* line 6, lib/styles/util/_context-colors.scss */
 .txt-wrn {
   display: inline;
   color: #fabe00; }
 
-/* line 6, lib/styles/util/_contect-colors.scss */
+/* line 6, lib/styles/util/_context-colors.scss */
 .txt-err {
   display: inline;
   color: #dd3344; }
 
-/* line 6, lib/styles/util/_contect-colors.scss */
+/* line 6, lib/styles/util/_context-colors.scss */
 .txt-lbl {
   display: inline;
   color: #999999; }
 
-/* line 16, lib/styles/util/_contect-colors.scss */
+/* line 16, lib/styles/util/_context-colors.scss */
 .bgc-pmy,
 .clickful.item:hover {
   display: inline-block;
   color: #fefefe;
-  background-color: dodgerblue; }
+  background-color: #ff0065; }
 
-/* line 16, lib/styles/util/_contect-colors.scss */
+/* line 16, lib/styles/util/_context-colors.scss */
 .bgc-scs {
   display: inline-block;
   color: #fefefe;
   background-color: #40b485; }
 
-/* line 16, lib/styles/util/_contect-colors.scss */
+/* line 16, lib/styles/util/_context-colors.scss */
 .bgc-wrn {
   display: inline-block;
   color: #fefefe;
   background-color: #fabe00; }
 
-/* line 16, lib/styles/util/_contect-colors.scss */
+/* line 16, lib/styles/util/_context-colors.scss */
 .bgc-err {
   display: inline-block;
   color: #fefefe;
   background-color: #dd3344; }
 
-/* line 16, lib/styles/util/_contect-colors.scss */
+/* line 16, lib/styles/util/_context-colors.scss */
 .bgc-lbl {
   display: inline-block;
   color: #fefefe;
@@ -132,7 +134,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, lib/styles/util/_current.scss */
 [class*="current"] {
-  background: dodgerblue;
+  background: #ff0065;
   color: #fefefe; }
 
 /* line 25, lib/styles/util/_display.scss */
@@ -243,8 +245,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   float: none; }
 
 /* line 2, lib/styles/util/_inline-list.scss */
-.inline-list li, .menu li {
+.inline-list li {
   display: inline-block; }
+
+/* line 2, lib/styles/util/_octicons.scss */
+.octicon.octicon-before:before {
+  margin-right: .325em; }
+/* line 5, lib/styles/util/_octicons.scss */
+.octicon.octicon-after:after {
+  margin-left: .325em; }
 
 /* line 1, lib/styles/util/_section.scss */
 section, nav, article, aside, header, footer, address, main {
@@ -507,45 +516,12 @@ a {
   text-decoration: none;
   color: inherit; }
 
-/* line 1, lib/styles/modules/_forms.scss */
-.input-wrap {
-  display: table-row; }
-  /* line 3, lib/styles/modules/_forms.scss */
-  .input-wrap > * {
-    display: table-cell;
-    padding: .5rem 1rem; }
-
-/* line 9, lib/styles/modules/_forms.scss */
-.wpcf7-form-control,
-.form-control {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  margin: 0;
-  padding: .5rem;
-  border: 1px solid #dddddd; }
-  /* line 18, lib/styles/modules/_forms.scss */
-  .wpcf7-form-control:hover,
-  .form-control:hover, .wpcf7-form-control:focus,
-  .form-control:focus {
-    z-index: 2; }
-  /* line 19, lib/styles/modules/_forms.scss */
-  .wpcf7-form-control:focus,
-  .form-control:focus {
-    outline: 1px solid dodgerblue;
-    border-color: transparent; }
-
-/* line 57, lib/styles/style.scss */
-ul .edit-button {
-  position: fixed;
-  bottom: 35px;
-  right: 1.5%;
-  color: dodgerblue;
-  font-size: small;
-  outline: 1px solid dodgerblue;
-  position: fixed; }
+/* line 1, lib/styles/modules/_brand.scss */
+.brand {
+  font-family: aktiv-grotesk-std, Arial Black, Arial, Helvetica sans-serif;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -.025em; }
+  /* line 6, lib/styles/modules/_brand.scss */
+  .brand:first-letter {
+    border-top: 6px solid #FF3B00; }
