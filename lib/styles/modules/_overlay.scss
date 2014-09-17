@@ -1,0 +1,34 @@
+.overlay-wrap {
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 300px;
+	border: solid rgba(255, 255, 255, 0.85);
+	border-width: 12px 0;
+	.underlay {
+		z-index: -1;
+		position: absolute;
+		display: table;
+		top: 0;
+		left: 0;
+		width: 100%;
+		pointer-events: auto;
+	}
+	.overlay {
+		width: 100%;
+		display: table-cell;
+		z-index: 2;
+		vertical-align: middle;
+		text-align: center;
+		color: $ui-primary;
+		background-color: rgba($ui-matte,.45);
+		border: solid rgba($ui-matte,.55);
+		border-width: 12px 0;
+		box-sizing: border-box;
+		.overlay-inner {
+			position: relative;
+			display: inline-block;
+			@extend .p-a-6;
+		}
+	}
+}

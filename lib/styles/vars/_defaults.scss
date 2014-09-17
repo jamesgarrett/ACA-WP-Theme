@@ -18,7 +18,7 @@ $min: 18.8rem !default;
 
 // SPACING
 $columns: 8    !default;
-$gutter : .125rem .25rem .5rem .75rem 1rem 2rem !default;
+$gutter : .125rem .25rem .5rem .75rem 1rem 1.5rem 2rem 2.75rem 0 !default;
 
 
 //—————————————————————————————————————————
@@ -31,8 +31,9 @@ $txt-base-fw: 300 !default;
 $txt-base-fz: 16px !default;
 
 // DISPLAY TEXT
-$txt-display-pre:'display-txt-';
-$txt-display-list: 1 2 3 4 5 6;
+$txt-display-ff: Helvetica Neue, Helvetica, Arial, sans-serif !default;
+$txt-display-pre:'display-txt-' !default;
+$txt-display-list: 1 2 3 4 5 6 !default;
 $txt-display-fz: 16px !default;
 
 // FONT SIZES
@@ -78,15 +79,17 @@ $gry-5: #F4F4F4 !default;
 $gry: $gry-1, $gry-2, $gry-3, $gry-4, $gry-5;
 
 // INTERFACE
-$ui-primary : $brand !default;
-$ui-hint    : $alt   !default;
-$ui-matte   : $gry-0 !default;
-$ui-disabled: $gry-3 !default;
-$ui-border  : $gry-4 !default;
-$ui-text    : $gry-1 !default;
+$ui-primary : $brand                !default;
+$ui-alt     : $alt                  !default;
+$ui-hint    : lighten($brand,18.75) !default;
+$ui-matte   : $gry-0                !default;
+$ui-disabled: $gry-3                !default;
+$ui-border  : $gry-4                !default;
+$ui-text    : $gry-2                !default;
 
 $ui : (
 	text    : $ui-text    ,
+	alt     : $ui-alt     ,
 	primary : $ui-primary ,
 	hint    : $ui-hint    ,
 	disabled: $ui-disabled,
@@ -95,15 +98,16 @@ $ui : (
 );
 
 // CONTEXTS
-$ctx-pmy: $brand  !default;
-$ctx-scs: #40B485 !default;
-$ctx-wrn: #FABE00 !default;
-$ctx-err: #DD3344 !default;
+$ctx-primary: $brand  !default;
+$ctx-success: #40B485 !default;
+$ctx-warn   : #FABE00 !default;
+$ctx-error  : #DD3344 !default;
+$ctx-label  : #FABE00 !default;
 
 $ctx: (
-	pmy: $brand ,
-	scs: #40B485,
-	wrn: #FABE00,
-	err: #DD3344,
-	lbl: $gry-3 ,
+	primary: $brand ,
+	success: #40B485,
+	warn   : #FABE00,
+	error  : #DD3344,
+	label  : $gry-3 ,
 );

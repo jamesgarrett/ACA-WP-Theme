@@ -1,0 +1,40 @@
+%inline-list--item {
+	padding: nth($gutter,2);
+	display: inline-block;
+}
+
+.inline-list {
+	> li {
+		@extend %inline-list--item;
+	}
+	&.list-flex {
+		width: 100%;
+		display: table;
+		> li {
+			vertical-align: middle;
+			display: table-cell;
+		}
+		.flex {
+			width: 100%;
+		}
+	}
+}
+
+.icon-list {
+	> li {
+		vertical-align: top;
+		@include transition(color .2s ease-in);
+		&:hover {
+			color: $ui-primary;
+			@include transition(color .2s ease-out);
+		}
+		@include mq(m,max-width) {
+			@include box-sizing(border-box);
+			display: inline-block;
+			width: 49%;
+			margin: nth($gutter,5) 0 !important;
+			// display: block;
+			// margin: 0 auto;
+		}
+	}
+}

@@ -1,3 +1,5 @@
+@import "imports";
+
 #post-body.columns-2 {
 	@media screen and (min-width: 1470px) {
 		$w: 280px;
@@ -23,39 +25,47 @@
 			> #side-sortables {
 				position: fixed;
 				top: 0;
-				border-left: 1px solid rgba(0,0,0,.0);
-				box-shadow: -25px 0 125px -75px rgba(0,0,0,0);
 				box-sizing: border-box;
 				height: 100%;
+
 				overflow: hidden;
 				overflow-y: scroll;
+				-webkit-overflow-scrolling: touch;
+				&::-webkit-scrollbar              { color:transparent; background-color:transparent; visibility:hidden; display:none; width:0; height:0; }
+				&::-webkit-scrollbar-button       { color:transparent; background-color:transparent; visibility:hidden; display:none; width:0; height:0; }
+				&::-webkit-scrollbar-track        { color:transparent; background-color:transparent; visibility:hidden; display:none; width:0; height:0; }
+				&::-webkit-scrollbar-track-piece  { color:transparent; background-color:transparent; visibility:hidden; display:none; width:0; height:0; }
+				&::-webkit-scrollbar-thumb        { color:transparent; background-color:transparent; visibility:hidden; display:none; width:0; height:0; }
+				&::-webkit-scrollbar-corner       { color:transparent; background-color:transparent; visibility:hidden; display:none; width:0; height:0; }
+				&::-webkit-resizer                { color:transparent; background-color:transparent; visibility:hidden; display:none; width:0; height:0; }
+
 				padding: 6.125% 0 0 1%;
-				transition: all .12s ease-in-out;
+				box-shadow: -25px 0 125px -75px rgba(0,0,0,0);
+				@include transition(box-shadow .25s ease-in-out, opacity .12s ease-in-out);
 				width: 300px;
 				z-index: 1;
+				opacity: .825;
 				& > * {
 					-webkit-filter: saturate(1.125);
-					opacity: .825;
 					pointer-events: none;
-					transition: all .12s ease-in-out;
+					@include transition(filter .12s ease-in, box-shadow .1s);
 				}
 				&:hover {
-					border-left: 1px solid transparent;
 					box-shadow: -25px 0 125px -65px rgba(0,0,0,.5);
-					transition: all .12s ease-in-out;
+					opacity: 1;
+					@include transition(box-shadow .25s ease-in-out, opacity .12s ease-in-out);
 					* {
 						-webkit-filter: saturate(1);
-						opacity: 1;
 						pointer-events: auto;
-						transition: all .12s ease-in-out;
+						@include transition(filter .12s ease-in, box-shadow .1s);
 					}
 				}
 				&:not(:hover) {
-					box-shadow: -25px 0 125px -165px rgba(0,0,0,0);
-					// border-left: 1px solid rgba(black,.0725);
+					box-shadow: -25px 0 125px -75px rgba(0,0,0,0);
+					// @include transition(box-shadow .25s ease-in-out, opacity .12s ease-in-out);
 					* {
 						box-shadow: 0 0 0 transparent;
-						transition: all .12s ease-in-out;
+						@include transition(filter .12s ease-in, box-shadow .1s);
 					}
 					.submitbox a {
 						color: black;
@@ -63,6 +73,61 @@
 				}
 			}
 		}
+	}
+	#side-sortables {
+		/*
+		|| FIXED PUB METABOX
+		*/
+		@media screen and (min-width: 1470px) {
+			$admin-bg: #F5F5F5;
+			padding-top: 420px !important;
+			#submitdiv {
+				position: fixed;
+				z-index: 2;
+				top: 115px;
+				width: 282px;
+				box-shadow: 0 -150px 0 $admin-bg, 0 0 10px $admin-bg, 0 3px 10px -5px #000, 0 20px 15px rgba($admin-bg,.875) !important;
+				box-shadow: 0 0 10px $admin-bg, 0 3px 10px -5px #000, 0 20px 15px -8px rgba($admin-bg,.875) !important;
+				border-bottom: 0 solid transparent;
+				opacity: 1 !important;
+				+ .postbox {
+					margin-top: 0 !important;
+					@include transition(margin-top .2s linear, margin);
+				}
+				&.closed + .postbox {
+					margin-top: -250px !important;
+					@include transition(margin-top .2s linear, margin);
+				}
+				&:after {
+					content: ' ';
+					position: absolute;
+					z-index: 1;
+					bottom: 100%;
+					left: -3px;
+					width: 100%;
+					height: 300px;
+					margin-bottom: 1px;
+					border-style: solid;
+					border-width: 0 3px;
+					pointer-events: auto;
+					color: $admin-bg;
+					background: $admin-bg;
+				}
+				.hndle {
+					&:after {
+						content: 'Actions';
+					}
+					span {
+						display: none;
+					}
+				}
+				#minor-publishing {
+					height: 175px;
+					overflow: scroll;
+					-webkit-overflow-scrolling: touch;
+				}
+			}
+		} /*ENDMEDIAQUERY*/
 	}
 	#titlediv {
 		#title {

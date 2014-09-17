@@ -4,11 +4,8 @@
 .post-type-page {
 	#pageparentdiv {
 		background: transparent;
-		border-style: dotted;
-		border-color: #CCC;
-		border-width: 1px 0 0;
-		border-width: 0 0;
-		box-shadow: 0 0 0 transparent;
+		border-width: 0 !important;
+		box-shadow: 0 0 0 transparent !important;
 		padding: 0;
 		*:not(select) {
 			border-color: transparent;
@@ -37,7 +34,7 @@
 		#parent_id,
 		.handlediv,
 		.inside > p {
-		    display: none;
+		    display: none !important;
 		}
 		.hndle, .handlediv {
 			pointer-events: none !important;

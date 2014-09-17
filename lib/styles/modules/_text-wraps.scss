@@ -1,0 +1,8 @@
+.txt-box {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	@extend .p-a-3;
+	text-align: left;
+	line-height: 1.325;
+}

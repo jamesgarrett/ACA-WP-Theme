@@ -1,9 +1,20 @@
 .octicon {
+	&, &:before {
+		vertical-align: middle;
+	}
 	&.octicon-before:before {
 		margin-right: .325em;
 	}
 	&.octicon-after:after {
 		margin-left: .325em;
 	}
-
+	&.omega {
+		font-size: 32px;
+	}
+	&.beta {
+		font-size: 64px;
+	}
+	&.alpha {
+		font-size: 128px;
+	}
 }

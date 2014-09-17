@@ -1,9 +1,21 @@
 /* line 2, ../lib/styles/util/_octicons.scss */
+.octicon, .octicon:before {
+  vertical-align: middle; }
+/* line 5, ../lib/styles/util/_octicons.scss */
 .octicon.octicon-before:before {
   margin-right: .325em; }
-/* line 5, ../lib/styles/util/_octicons.scss */
+/* line 8, ../lib/styles/util/_octicons.scss */
 .octicon.octicon-after:after {
   margin-left: .325em; }
+/* line 11, ../lib/styles/util/_octicons.scss */
+.octicon.omega {
+  font-size: 32px; }
+/* line 14, ../lib/styles/util/_octicons.scss */
+.octicon.beta {
+  font-size: 64px; }
+/* line 17, ../lib/styles/util/_octicons.scss */
+.octicon.alpha {
+  font-size: 128px; }
 
 /* line 3, ../lib/styles/admin/admin-theme.scss */
 .rg--big {
@@ -206,12 +218,12 @@
           background: #F6F6F6; }
 
 @media screen and (min-width: 1470px) {
-  /* line 1, ../lib/styles/admin/single-editor.scss */
+  /* line 3, ../lib/styles/admin/single-editor.scss */
   #post-body.columns-2 {
     width: 100%;
     position: relative;
     display: block; }
-    /* line 7, ../lib/styles/admin/single-editor.scss */
+    /* line 9, ../lib/styles/admin/single-editor.scss */
     #post-body.columns-2 #postbox-container-2,
     #post-body.columns-2 #post-body-content {
       max-width: 65rem;
@@ -220,7 +232,7 @@
       float: none;
       left: -150px;
       position: relative; }
-    /* line 16, ../lib/styles/admin/single-editor.scss */
+    /* line 18, ../lib/styles/admin/single-editor.scss */
     #post-body.columns-2 #postbox-container-1 {
       position: absolute;
       right: 1%;
@@ -228,48 +240,178 @@
       overflow: hidden;
       margin-right: 0;
       float: none !important; }
-      /* line 23, ../lib/styles/admin/single-editor.scss */
+      /* line 25, ../lib/styles/admin/single-editor.scss */
       #post-body.columns-2 #postbox-container-1 > #side-sortables {
         position: fixed;
         top: 0;
-        border-left: 1px solid transparent;
-        box-shadow: -25px 0 125px -75px transparent;
         box-sizing: border-box;
         height: 100%;
         overflow: hidden;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
         padding: 6.125% 0 0 1%;
-        transition: all .12s ease-in-out;
+        box-shadow: -25px 0 125px -75px transparent;
+        -moz-transition: box-shadow 0.25s ease-in-out, opacity 0.12s ease-in-out;
+        -o-transition: box-shadow 0.25s ease-in-out, opacity 0.12s ease-in-out;
+        -webkit-transition: box-shadow 0.25s ease-in-out, opacity 0.12s ease-in-out;
+        transition: box-shadow 0.25s ease-in-out, opacity 0.12s ease-in-out;
         width: 300px;
-        z-index: 1; }
+        z-index: 1;
+        opacity: .825; }
+        /* line 34, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables::-webkit-scrollbar {
+          color: transparent;
+          background-color: transparent;
+          visibility: hidden;
+          display: none;
+          width: 0;
+          height: 0; }
+        /* line 35, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables::-webkit-scrollbar-button {
+          color: transparent;
+          background-color: transparent;
+          visibility: hidden;
+          display: none;
+          width: 0;
+          height: 0; }
         /* line 36, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables::-webkit-scrollbar-track {
+          color: transparent;
+          background-color: transparent;
+          visibility: hidden;
+          display: none;
+          width: 0;
+          height: 0; }
+        /* line 37, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables::-webkit-scrollbar-track-piece {
+          color: transparent;
+          background-color: transparent;
+          visibility: hidden;
+          display: none;
+          width: 0;
+          height: 0; }
+        /* line 38, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables::-webkit-scrollbar-thumb {
+          color: transparent;
+          background-color: transparent;
+          visibility: hidden;
+          display: none;
+          width: 0;
+          height: 0; }
+        /* line 39, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables::-webkit-scrollbar-corner {
+          color: transparent;
+          background-color: transparent;
+          visibility: hidden;
+          display: none;
+          width: 0;
+          height: 0; }
+        /* line 40, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #postbox-container-1 > #side-sortables::-webkit-resizer {
+          color: transparent;
+          background-color: transparent;
+          visibility: hidden;
+          display: none;
+          width: 0;
+          height: 0; }
+        /* line 48, ../lib/styles/admin/single-editor.scss */
         #post-body.columns-2 #postbox-container-1 > #side-sortables > * {
           -webkit-filter: saturate(1.125);
-          opacity: .825;
           pointer-events: none;
-          transition: all .12s ease-in-out; }
-        /* line 42, ../lib/styles/admin/single-editor.scss */
+          -moz-transition: filter 0.12s ease-in, box-shadow 0.1s;
+          -o-transition: filter 0.12s ease-in, box-shadow 0.1s;
+          -webkit-transition: filter 0.12s ease-in, box-shadow 0.1s;
+          transition: filter 0.12s ease-in, box-shadow 0.1s; }
+        /* line 53, ../lib/styles/admin/single-editor.scss */
         #post-body.columns-2 #postbox-container-1 > #side-sortables:hover {
-          border-left: 1px solid transparent;
           box-shadow: -25px 0 125px -65px rgba(0, 0, 0, 0.5);
-          transition: all .12s ease-in-out; }
-          /* line 46, ../lib/styles/admin/single-editor.scss */
+          opacity: 1;
+          -moz-transition: box-shadow 0.25s ease-in-out, opacity 0.12s ease-in-out;
+          -o-transition: box-shadow 0.25s ease-in-out, opacity 0.12s ease-in-out;
+          -webkit-transition: box-shadow 0.25s ease-in-out, opacity 0.12s ease-in-out;
+          transition: box-shadow 0.25s ease-in-out, opacity 0.12s ease-in-out; }
+          /* line 57, ../lib/styles/admin/single-editor.scss */
           #post-body.columns-2 #postbox-container-1 > #side-sortables:hover * {
             -webkit-filter: saturate(1);
-            opacity: 1;
             pointer-events: auto;
-            transition: all .12s ease-in-out; }
-        /* line 53, ../lib/styles/admin/single-editor.scss */
+            -moz-transition: filter 0.12s ease-in, box-shadow 0.1s;
+            -o-transition: filter 0.12s ease-in, box-shadow 0.1s;
+            -webkit-transition: filter 0.12s ease-in, box-shadow 0.1s;
+            transition: filter 0.12s ease-in, box-shadow 0.1s; }
+        /* line 63, ../lib/styles/admin/single-editor.scss */
         #post-body.columns-2 #postbox-container-1 > #side-sortables:not(:hover) {
-          box-shadow: -25px 0 125px -165px transparent; }
-          /* line 56, ../lib/styles/admin/single-editor.scss */
+          box-shadow: -25px 0 125px -75px transparent; }
+          /* line 66, ../lib/styles/admin/single-editor.scss */
           #post-body.columns-2 #postbox-container-1 > #side-sortables:not(:hover) * {
             box-shadow: 0 0 0 transparent;
-            transition: all .12s ease-in-out; }
-          /* line 60, ../lib/styles/admin/single-editor.scss */
+            -moz-transition: filter 0.12s ease-in, box-shadow 0.1s;
+            -o-transition: filter 0.12s ease-in, box-shadow 0.1s;
+            -webkit-transition: filter 0.12s ease-in, box-shadow 0.1s;
+            transition: filter 0.12s ease-in, box-shadow 0.1s; }
+          /* line 70, ../lib/styles/admin/single-editor.scss */
           #post-body.columns-2 #postbox-container-1 > #side-sortables:not(:hover) .submitbox a {
             color: black; } }
-/* line 68, ../lib/styles/admin/single-editor.scss */
+/* line 77, ../lib/styles/admin/single-editor.scss */
+#post-body.columns-2 #side-sortables {
+  /*
+  || FIXED PUB METABOX
+  */
+  /*ENDMEDIAQUERY*/ }
+  @media screen and (min-width: 1470px) {
+    /* line 77, ../lib/styles/admin/single-editor.scss */
+    #post-body.columns-2 #side-sortables {
+      padding-top: 420px !important; }
+      /* line 84, ../lib/styles/admin/single-editor.scss */
+      #post-body.columns-2 #side-sortables #submitdiv {
+        position: fixed;
+        z-index: 2;
+        top: 115px;
+        width: 282px;
+        box-shadow: 0 -150px 0 whitesmoke, 0 0 10px whitesmoke, 0 3px 10px -5px black, 0 20px 15px rgba(245, 245, 245, 0.875) !important;
+        box-shadow: 0 0 10px whitesmoke, 0 3px 10px -5px black, 0 20px 15px -8px rgba(245, 245, 245, 0.875) !important;
+        border-bottom: 0 solid transparent;
+        opacity: 1 !important; }
+        /* line 93, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #side-sortables #submitdiv + .postbox {
+          margin-top: 0 !important;
+          -moz-transition: margin-top 0.2s linear, margin;
+          -o-transition: margin-top 0.2s linear, margin;
+          -webkit-transition: margin-top 0.2s linear, margin;
+          transition: margin-top 0.2s linear, margin; }
+        /* line 97, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #side-sortables #submitdiv.closed + .postbox {
+          margin-top: -250px !important;
+          -moz-transition: margin-top 0.2s linear, margin;
+          -o-transition: margin-top 0.2s linear, margin;
+          -webkit-transition: margin-top 0.2s linear, margin;
+          transition: margin-top 0.2s linear, margin; }
+        /* line 101, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #side-sortables #submitdiv:after {
+          content: ' ';
+          position: absolute;
+          z-index: 1;
+          bottom: 100%;
+          left: -3px;
+          width: 100%;
+          height: 300px;
+          margin-bottom: 1px;
+          border-style: solid;
+          border-width: 0 3px;
+          pointer-events: auto;
+          color: whitesmoke;
+          background: whitesmoke; }
+        /* line 117, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #side-sortables #submitdiv .hndle:after {
+          content: 'Actions'; }
+        /* line 120, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #side-sortables #submitdiv .hndle span {
+          display: none; }
+        /* line 124, ../lib/styles/admin/single-editor.scss */
+        #post-body.columns-2 #side-sortables #submitdiv #minor-publishing {
+          height: 175px;
+          overflow: scroll;
+          -webkit-overflow-scrolling: touch; } }
+/* line 133, ../lib/styles/admin/single-editor.scss */
 #post-body.columns-2 #titlediv #title {
   background: transparent;
   border-radius: 4px;
@@ -278,44 +420,18 @@
   font-weight: 100;
   letter-spacing: -.0325rem;
   transition: all .125s ease-in; }
-  /* line 76, ../lib/styles/admin/single-editor.scss */
+  /* line 141, ../lib/styles/admin/single-editor.scss */
   #post-body.columns-2 #titlediv #title:focus {
     background: #F9F9F9;
     border-color: #5B9DD9;
     box-shadow: 0 0 0 transparent;
     transition: all .125s ease-in; }
-  /* line 82, ../lib/styles/admin/single-editor.scss */
+  /* line 147, ../lib/styles/admin/single-editor.scss */
   #post-body.columns-2 #titlediv #title:focus, #post-body.columns-2 #titlediv #title:hover {
     background: #FDFDFD;
     border-color: #D3D3D3;
     box-shadow: 0 2px 15px -10px #333;
     transition: all .125s ease-in; }
-
-/* line 2, ../lib/styles/admin/mail-sub-plug.scss */
-.mail-subscribe-list-index-php #post-body-content {
-  float: none;
-  margin: 0 auto;
-  max-width: 85em; }
-  /* line 6, ../lib/styles/admin/mail-sub-plug.scss */
-  .mail-subscribe-list-index-php #post-body-content:before {
-    content: 'Email Subscriptions';
-    display: block;
-    font-size: 2rem;
-    font-weight: bold;
-    letter-spacing: -.0325em;
-    line-height: 2rem;
-    margin: 0 0 1.5rem;
-    padding: 0; }
-/* line 17, ../lib/styles/admin/mail-sub-plug.scss */
-.mail-subscribe-list-index-php #postbox-container-1 {
-  display: none; }
-/* line 20, ../lib/styles/admin/mail-sub-plug.scss */
-.mail-subscribe-list-index-php .meta-box-sortables .postbox {
-  background: transparent;
-  border: 0 solid transparent;
-  border-top: 1px solid #DDD;
-  box-shadow: 0 0 0 transparent;
-  padding-top: 1.5em; }
 
 /* line 4, ../lib/styles/admin/acf.scss */
 #acf-col-side {
@@ -476,20 +592,17 @@
 /* line 5, ../lib/styles/admin/posttype-page.scss */
 .post-type-page #pageparentdiv {
   background: transparent;
-  border-style: dotted;
-  border-color: #CCC;
-  border-width: 1px 0 0;
-  border-width: 0 0;
-  box-shadow: 0 0 0 transparent;
+  border-width: 0 !important;
+  box-shadow: 0 0 0 transparent !important;
   padding: 0; }
-  /* line 13, ../lib/styles/admin/posttype-page.scss */
+  /* line 10, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv *:not(select) {
     border-color: transparent;
     padding: 0; }
-  /* line 17, ../lib/styles/admin/posttype-page.scss */
+  /* line 14, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv .inside {
     margin-top: .25em !important; }
-    /* line 19, ../lib/styles/admin/posttype-page.scss */
+    /* line 16, ../lib/styles/admin/posttype-page.scss */
     .post-type-page #pageparentdiv .inside select {
       display: block;
       width: 99.5%;
@@ -498,21 +611,21 @@
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       height: 2.5rem; }
-  /* line 27, ../lib/styles/admin/posttype-page.scss */
+  /* line 24, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv .hndle {
     padding: .575em .575em .325em;
     padding: 0 .575em .325em; }
-    /* line 30, ../lib/styles/admin/posttype-page.scss */
+    /* line 27, ../lib/styles/admin/posttype-page.scss */
     .post-type-page #pageparentdiv .hndle:before {
       content: 'Template:'; }
-    /* line 33, ../lib/styles/admin/posttype-page.scss */
+    /* line 30, ../lib/styles/admin/posttype-page.scss */
     .post-type-page #pageparentdiv .hndle > span {
       font-size: 0; }
-  /* line 37, ../lib/styles/admin/posttype-page.scss */
+  /* line 34, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv #parent_id,
   .post-type-page #pageparentdiv .handlediv,
   .post-type-page #pageparentdiv .inside > p {
-    display: none; }
-  /* line 42, ../lib/styles/admin/posttype-page.scss */
+    display: none !important; }
+  /* line 39, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv .hndle, .post-type-page #pageparentdiv .handlediv {
     pointer-events: none !important; }

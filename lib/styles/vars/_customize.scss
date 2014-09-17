@@ -1,17 +1,23 @@
-
-
-
-//————————————————————————————————————————
-// 𝖎 | CUSTOMIZE TEMPLATE SCSS
-//   +
-//   | Any variables you want to add or
-//   | change from their default settings
-//   | can be done in this file.
-//   |
-//   | For all variables see:
-//   |>> lib/styles/vars/_defaults.scss
-//————————————————————————————————————————
-
-
+/*————————————————————————————————————————
+|| CUSTOMIZE TEMPLATE SCSS
+||
+|| Any variables you want to add or change
+|| from their default settings can be done
+|| in this file. For all variables see:
+|| > lib/styles/vars/_defaults.scss
+*/
 
 $brand: #FF0065;
+$brand: #FF3B00;
+$brand: #F72F5D;
+$alt: dodgerblue;
+/*
+|| TYPOGRAPHY
+*/
+   $txt-base-ff: aktiv-grotesk-std, Helvetica Neue, Helvetica, Arial, sans-serif;
+$txt-display-ff: "superclarendon", Superclarendon, Georgia;
+
+/*
+|| COLORS
+*/
+$ui-matte: #FDFDFD;

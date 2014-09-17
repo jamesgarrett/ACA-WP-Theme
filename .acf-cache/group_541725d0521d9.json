@@ -15,7 +15,7 @@
         {
             "key": "field_54174831ce80d",
             "label": "",
-            "name": "head",
+            "name": "top--box",
             "prefix": "",
             "type": "repeater",
             "instructions": "",
@@ -193,7 +193,7 @@
                     "sub_fields": [
                         {
                             "key": "field_54173b4d1d381",
-                            "label": "",
+                            "label": "Text:",
                             "name": "text",
                             "prefix": "",
                             "type": "wysiwyg",
@@ -360,7 +360,7 @@
                             "min": 1,
                             "max": 5,
                             "layout": "row",
-                            "button_label": "Add List Item",
+                            "button_label": "+ List Item",
                             "sub_fields": [
                                 {
                                     "key": "field_5418422977276",
@@ -607,10 +607,10 @@
                                     "conditional_logic": 0,
                                     "column_width": "",
                                     "default_value": "",
-                                    "placeholder": "Item description...",
+                                    "placeholder": "",
                                     "maxlength": "",
-                                    "rows": 5,
-                                    "new_lines": "wpautop",
+                                    "rows": 6,
+                                    "new_lines": "",
                                     "readonly": 0,
                                     "disabled": 0
                                 },
@@ -685,7 +685,8 @@
                                     "column_width": "",
                                     "choices": {
                                         "link--url": "A URL",
-                                        "link--page": "A page, post, or anything else on your site"
+                                        "link--page": "Site Content",
+                                        "link--disabled": "Disabled"
                                     },
                                     "other_choice": 0,
                                     "save_other_choice": 0,
@@ -700,7 +701,7 @@
                 },
                 {
                     "key": "541738e5a97c9",
-                    "name": "hero",
+                    "name": "map",
                     "label": "Map",
                     "display": "row",
                     "sub_fields": [

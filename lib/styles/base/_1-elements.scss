@@ -32,21 +32,28 @@ main    { @extend %section; }
 //
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
-	@extend %display-txt-3;
+	// @extend %display-txt-3;
 }
 $headers:(1,2,3,4,5,6);
 @each $z in $headers {
 	$select: h+$z;
 	$level : $txt-display-pre+$z;
-	.content #{$select} {
+	#{$select} {
 		@extend %#{$level};
+		font-family: $txt-display-ff;
 	}
 }
 
 //————————————————————————————————————————————————————
 // GROUPING ELEMENTS
 // 
-p {}
+p {
+	font-weight: normal;
+	text-align: justify;
+	@include mq(s,max-width) {
+		text-align: left;
+	}
+}
 hr {}
 pre {}
 blockquote {}
@@ -66,6 +73,10 @@ div {}
 a {
 	text-decoration: none;
 	color: inherit;
+	&[disabled] {
+		color: $ui-disabled;
+		pointer-events:none;
+	}
 }
 em {}
 strong {}

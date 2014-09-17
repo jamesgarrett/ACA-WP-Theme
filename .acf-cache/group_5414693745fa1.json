@@ -26,7 +26,7 @@
         {
             "key": "field_541469b767d53",
             "label": "",
-            "name": "meta_excerpt_override",
+            "name": "meta--excerpt",
             "prefix": "",
             "type": "textarea",
             "instructions": "Add a brief description of this page. This will be used in search results and social feeds to describe this page.",
@@ -51,17 +51,34 @@
             "conditional_logic": 0
         },
         {
-            "key": "field_54146a6f9b5d2",
+            "key": "field_5418e2b42fb0e",
             "label": "",
-            "name": "meta_large_image_override",
+            "name": "meta--images",
             "prefix": "",
-            "type": "image",
-            "instructions": "Upload an image, at least 250x150 pixel",
+            "type": "repeater",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
-            "return_format": "array",
-            "preview_size": "medium",
-            "library": "all"
+            "min": 1,
+            "max": 1,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_54146a6f9b5d2",
+                    "label": "",
+                    "name": "large",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "Upload an image, at least 250x150 pixel",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "column_width": "",
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all"
+                }
+            ]
         }
     ],
     "location": [

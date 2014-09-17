@@ -1,0 +1,7 @@
+.navigation {
+	@extend .inline-list;
+	@extend .list-flex;
+	#brand {
+		@extend .flex;
+	}
+}
