@@ -1,0 +1,47 @@
+@mixin box ( $args ) {
+	$settings : map-merge((
+		gutter : 1rem,
+		mult   : 1,
+		halign: center,
+		valign: middle,
+		inner  : inner--box,
+	),$args);
+	@include box-sizing(border-box);
+	position: relative;
+	display: table;
+	width: 100%;
+	overflow: hidden;
+	padding: map-get($settings,gutter) * map-get($settings,mult);
+	text-align: map-get($settings,halign);
+	.#{map-get($settings,inner)} {
+		display: table-cell;
+		vertical-align: map-get($settings,valign);
+	}
+}
+
+.overlay-wrap {
+	@include box((
+		mult : 3,
+		inner: overlay,
+	));
+	z-index: 1;
+	min-height: 300px;
+	.underlay {
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		@include background-size(cover);
+	}
+	.acf-map {
+		height: 110%;
+	}
+}
+
+.txt-box {
+	display: inline-block;
+	text-align: left;
+	margin: nth($gutter,5);
+}

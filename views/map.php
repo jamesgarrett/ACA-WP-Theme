@@ -10,8 +10,8 @@
 			<div class="marker" data-lat="{{$map['lat']}}" data-lng="{{$map['lng']}}"></div>
 		</div>
 		@if(isset($txt))
-			<span class="overlay bdr-a">
-				<span class="overlay-inner p-t-1"> @if(isset($icn))
+			<span class="overlay">
+				<span class="container"> @if(isset($icn))
 					<span class="octicon beta octicon-before {{$icn}}"></span>
 				@endif <span class="txt-box">{{$txt}}</span> </span>
 			</span>

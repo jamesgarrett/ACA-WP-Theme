@@ -5,20 +5,15 @@
 @include('partials.pre')
 
 <header id="header" role="banner">
-	@include("partials.head")
+	<div class="container vertical-align-middle">@include("partials.head")</div>
 </header>
 
 <div id="app">
-	<section>
-		@yield('top')
-	</section>
-	<main>
-		@yield('main')
-		<aside> @yield('side') </aside>
+	<section id="top">@yield('top')</section>
+	<main class="container">
+		<article class="grid-8 centered">@yield('main')</article>
 	</main>
-	<section>
-		@yield('bottom')
-	</section>
+	<section id="bottom">@yield('bottom')</section>
 </div>
 
 <footer id="footer">

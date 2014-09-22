@@ -16,6 +16,7 @@ foreach(array(
 || CUSTOM POSTTYPES
 */
 //	'cpt-portfolio'  ,
+	'cpt-services'   ,
 	'cpt-podcasts'   ,
 ) as $file){require_once("lib/func/$file.php");}
 

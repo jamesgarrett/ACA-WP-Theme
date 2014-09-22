@@ -1,26 +1,6 @@
-.brand {
-	font-family: $txt-base-ff;
-	font-weight: 100;
-	text-rendering: optimizeLegibility;
-	// letter-spacing: -.0625em;
-	text-transform: uppercase;
-	.overline {
-		position: relative;
-		display: inline-block;
+#brand {
+	padding: nth($gutter,4);
+	@include gridle_state( mobile ) {
 		text-align: center;
-		letter-spacing: 0;
-		margin: 0 -.015em 0 0;
-		padding: .05em 0 0 0;
-		&:after {
-			content: " ";
-			position: absolute;
-			top: -6px;
-			top: .05em;
-			left: 0;
-			display: block;
-			width: 100%;
-			height: .05em;
-			background-color: $ui-primary;
-		}
 	}
 }

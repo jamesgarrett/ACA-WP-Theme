@@ -163,6 +163,148 @@
             ]
         },
         {
+            "key": "field_541c3e89bfcc4",
+            "label": " (copy)",
+            "name": "top--box_copy",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "min": 1,
+            "max": 1,
+            "layout": "row",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_541c3e89bfcc5",
+                    "label": "Heading",
+                    "name": "title",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_541c3e89bfcc6",
+                    "label": "Alignment",
+                    "name": "",
+                    "prefix": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0
+                },
+                {
+                    "key": "field_541c3e89bfcc7",
+                    "label": "",
+                    "name": "text-align",
+                    "prefix": "",
+                    "type": "radio",
+                    "instructions": "Horizontal",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "choices": {
+                        "left": "Left",
+                        "center": "Center",
+                        "right": "Right"
+                    },
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "left",
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_541c3e89bfcc8",
+                    "label": "",
+                    "name": "vertical-align",
+                    "prefix": "",
+                    "type": "radio",
+                    "instructions": "Vertical",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "choices": {
+                        "top": "Top",
+                        "middle": "Middle",
+                        "bottom": "Bottom"
+                    },
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "middle",
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_541c3e89bfcc9",
+                    "label": "Background Image",
+                    "name": "",
+                    "prefix": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0
+                },
+                {
+                    "key": "field_541c3e89bfcca",
+                    "label": "",
+                    "name": "background-image",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "Image",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all"
+                },
+                {
+                    "key": "field_541c3e89bfccb",
+                    "label": "",
+                    "name": "background-position-x",
+                    "prefix": "",
+                    "type": "radio",
+                    "instructions": "Horizontal Position",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "choices": {
+                        "left": "Left",
+                        "center": "Center",
+                        "right": "Right"
+                    },
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "center",
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_541c3e89bfccc",
+                    "label": "",
+                    "name": "background-position-y",
+                    "prefix": "",
+                    "type": "radio",
+                    "instructions": "Vertical Position",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "choices": {
+                        "top": "Top",
+                        "center": "Middle",
+                        "bottom": "Bottom"
+                    },
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "center",
+                    "layout": "horizontal"
+                }
+            ]
+        },
+        {
             "key": "field_5417491da9f45",
             "label": "Content",
             "name": "",
@@ -358,7 +500,7 @@
                             "conditional_logic": 0,
                             "column_width": "",
                             "min": 1,
-                            "max": 5,
+                            "max": 4,
                             "layout": "row",
                             "button_label": "+ List Item",
                             "sub_fields": [
@@ -694,6 +836,26 @@
                                     "layout": "horizontal"
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_541a1e8c67589",
+                            "label": "",
+                            "name": "octicon-size",
+                            "prefix": "",
+                            "type": "radio",
+                            "instructions": "Icon Size",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "column_width": "",
+                            "choices": {
+                                "omega": "Small",
+                                "beta": "Medium",
+                                "alpha": "Large"
+                            },
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "beta",
+                            "layout": "horizontal"
                         }
                     ],
                     "min": 0,

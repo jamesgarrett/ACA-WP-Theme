@@ -1,7 +1,9 @@
 //————————————————————————————————————————————————————
 // ALL
 //
-* {}
+* {
+	@include box-sizing(border-box);
+}
 
 //————————————————————————————————————————————————————
 // PAGE
@@ -18,41 +20,41 @@ body {
 //————————————————————————————————————————————————————
 // SECTIONS
 // 
-section { @extend %section; }
-nav     { @extend %section; }
-article { @extend %section; }
-aside   { @extend %section; }
-header  { @extend %section; }
-footer  { @extend %section; }
-address { @extend %section; }
-main    { @extend %section; }
+section {}
+nav     {}
+article {}
+aside   {}
+header  {}
+footer  {}
+address {}
+main    {}
 
 //————————————————————————————————————————————————————
 // HEADINGS
 //
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
-	// @extend %display-txt-3;
 }
-$headers:(1,2,3,4,5,6);
-@each $z in $headers {
-	$select: h+$z;
-	$level : $txt-display-pre+$z;
-	#{$select} {
-		@extend %#{$level};
-		font-family: $txt-display-ff;
-	}
-}
+// $headers:(1,2,3,4,5,6);
+// @each $z in $headers {
+// 	$select: h+$z;
+// 	$level : $txt-display-pre+$z;
+// 	#{$select} {
+// 		font-family: $txt-display-ff;
+// 		@extend %#{$level};
+// 	}
+// }
 
 //————————————————————————————————————————————————————
 // GROUPING ELEMENTS
 // 
 p {
-	font-weight: normal;
+	font-weight: 400;
+	font-weight: 300;
 	text-align: justify;
-	@include mq(s,max-width) {
-		text-align: left;
-	}
+	line-height: 2;
+	margin: 1.5em auto;
+	max-width: map-get($breaks,s);
 }
 hr {}
 pre {}
@@ -71,6 +73,7 @@ div {}
 // TEXT-LEVEL SEMANTICS
 // 
 a {
+	display: inline-block;
 	text-decoration: none;
 	color: inherit;
 	&[disabled] {
@@ -80,7 +83,10 @@ a {
 }
 em {}
 strong {}
-small {}
+small {
+	font-weight: normal;
+	font-size: .875rem;
+}
 s {}
 cite {}
 q {}

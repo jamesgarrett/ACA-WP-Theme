@@ -594,15 +594,16 @@
   background: transparent;
   border-width: 0 !important;
   box-shadow: 0 0 0 transparent !important;
-  padding: 0; }
-  /* line 10, ../lib/styles/admin/posttype-page.scss */
+  padding: 0;
+  display: block !important; }
+  /* line 11, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv *:not(select) {
     border-color: transparent;
     padding: 0; }
-  /* line 14, ../lib/styles/admin/posttype-page.scss */
+  /* line 15, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv .inside {
     margin-top: .25em !important; }
-    /* line 16, ../lib/styles/admin/posttype-page.scss */
+    /* line 17, ../lib/styles/admin/posttype-page.scss */
     .post-type-page #pageparentdiv .inside select {
       display: block;
       width: 99.5%;
@@ -611,21 +612,21 @@
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       height: 2.5rem; }
-  /* line 24, ../lib/styles/admin/posttype-page.scss */
+  /* line 25, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv .hndle {
     padding: .575em .575em .325em;
     padding: 0 .575em .325em; }
-    /* line 27, ../lib/styles/admin/posttype-page.scss */
+    /* line 28, ../lib/styles/admin/posttype-page.scss */
     .post-type-page #pageparentdiv .hndle:before {
       content: 'Template:'; }
-    /* line 30, ../lib/styles/admin/posttype-page.scss */
+    /* line 31, ../lib/styles/admin/posttype-page.scss */
     .post-type-page #pageparentdiv .hndle > span {
       font-size: 0; }
-  /* line 34, ../lib/styles/admin/posttype-page.scss */
+  /* line 35, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv #parent_id,
   .post-type-page #pageparentdiv .handlediv,
   .post-type-page #pageparentdiv .inside > p {
     display: none !important; }
-  /* line 39, ../lib/styles/admin/posttype-page.scss */
+  /* line 40, ../lib/styles/admin/posttype-page.scss */
   .post-type-page #pageparentdiv .hndle, .post-type-page #pageparentdiv .handlediv {
     pointer-events: none !important; }

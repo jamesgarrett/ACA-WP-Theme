@@ -30,27 +30,35 @@
 //—————————————————————————————————————————
 // 2 | TYPEFACES
 //
-@import url(./bower_components/octicons/octicons/octicons.css);
+@import url(./lib/bower_components/octicons/octicons/octicons.css);
 @import url(./assets/fonts/Super-Clarendon/font.css);
 
 // ————————————————————————————————————————
-// 3 | THEME
+// 3 | SETTINGS
 //
 @import "vars/*";
+@import "gridle/_settings";
 
 //————————————————————————————————————————
-// 4 | UTILITIES
+// 4 | BASE
 //
 @import "util/*";
-
-//————————————————————————————————————————
-// 5 | BASE
-//
 @import "base/*";
 
 //————————————————————————————————————————
-// 6 | MODULES
+// 5 | MODULES
 //
 @import "modules/*";
+
+//————————————————————————————————————————
+// 6 | 
+//
+// @import "";
+
+[class*="grid-"] {
+    @include gridle_state( mobile ) {
+        width:100%;
+    }
+}
 
 // body { @include show-mq(); }

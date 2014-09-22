@@ -3,7 +3,7 @@
 //—————————————————————————————————————————
 
 // BREAKPOINTS
-$breakpoint: 32.5rem, 40rem, 50rem, 65rem, 70rem !default;
+$breakpoint: 26rem, 40rem, 50rem, 65rem, 70rem !default;
 $breaks: (
 	xs: nth($breakpoint,1),
 	s : nth($breakpoint,2),

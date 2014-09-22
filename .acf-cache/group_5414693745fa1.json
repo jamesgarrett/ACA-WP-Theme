@@ -1,6 +1,6 @@
 {
     "key": "group_5414693745fa1",
-    "title": "Metadata \u2013 Single",
+    "title": "Optimize",
     "fields": [
         {
             "key": "field_54175f2dfce52",
@@ -65,17 +65,17 @@
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_54146a6f9b5d2",
+                    "key": "field_541c4032a0439",
                     "label": "",
                     "name": "large",
                     "prefix": "",
                     "type": "image",
-                    "instructions": "Upload an image, at least 250x150 pixel",
+                    "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "column_width": "",
                     "return_format": "array",
-                    "preview_size": "medium",
+                    "preview_size": "thumbnail",
                     "library": "all"
                 }
             ]
@@ -100,7 +100,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "post"
+                "value": "episode"
             }
         ]
     ],

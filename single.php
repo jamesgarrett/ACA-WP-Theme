@@ -3,7 +3,10 @@
 @section('main')
 	<h2>{{the_title()}}</h2>
 	<code>Single</code>
-	<section>
-		{{the_content()}}
-	</section>
+	@wpposts
+		<section>
+			{{the_content()}}
+		</section>
+	@wpempty
+	@wpend
 @endsection

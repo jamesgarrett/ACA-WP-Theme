@@ -1,0 +1,23 @@
+@mixin side-scroller () {
+	@include gridle_state( mobile ) {
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
+		&::-webkit-scrollbar,
+		&::-webkit-scrollbar-button,
+		&::-webkit-scrollbar-track,
+		&::-webkit-scrollbar-track-piece,
+		&::-webkit-scrollbar-thumb,
+		&::-webkit-scrollbar-corner,
+		&::-webkit-resizer {
+			visibility: hidden;
+			display: none;
+			opacity: 0;
+			width: 0;
+			height: 0;
+		}	
+	}
+}
+
+#site-nav {
+	@include side-scroller();
+}
